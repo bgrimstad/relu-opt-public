@@ -1,0 +1,14 @@
+name: relu-opt
+channels:
+  - gurobi
+dependencies:
+  - python=3.6
+  - pip
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - gurobi
+  - pip:
+    - tensorflow

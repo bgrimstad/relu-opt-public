@@ -1,0 +1,190 @@
+õdYeƒ{"class_name": "Sequential", "config": {"build_input_shape": [null, 4], "layers": [{"class_name": "Dense", "config": {"activation": "relu", "activity_regularizer": null, "bias_constraint": null, "bias_initializer": {"class_name": "Constant", "config": {"dtype": "float32", "value": 0.1}}, "bias_regularizer": {"class_name": "L1L2", "config": {"l1": 0.0, "l2": 1.000000013351432e-10}}, "dtype": null, "kernel_constraint": null, "kernel_initializer": {"class_name": "RandomNormal", "config": {"dtype": "float32", "mean": 0.0, "seed": null, "stddev": 0.05}}, "kernel_regularizer": {"class_name": "L1L2", "config": {"l1": 0.0, "l2": 1.000000013351432e-10}}, "name": "dense", "trainable": true, "units": 20, "use_bias": true}}, {"class_name": "Dense", "config": {"activation": "relu", "activity_regularizer": null, "bias_constraint": null, "bias_initializer": {"class_name": "Constant", "config": {"dtype": "float32", "value": 0.1}}, "bias_regularizer": {"class_name": "L1L2", "config": {"l1": 0.0, "l2": 1.000000013351432e-10}}, "dtype": null, "kernel_constraint": null, "kernel_initializer": {"class_name": "RandomNormal", "config": {"dtype": "float32", "mean": 0.0, "seed": null, "stddev": 0.05}}, "kernel_regularizer": {"class_name": "L1L2", "config": {"l1": 0.0, "l2": 1.000000013351432e-10}}, "name": "dense_1", "trainable": true, "units": 20, "use_bias": true}}, {"class_name": "Dense", "config": {"activation": "relu", "activity_regularizer": null, "bias_constraint": null, "bias_initializer": {"class_name": "Constant", "config": {"dtype": "float32", "value": 0.1}}, "bias_regularizer": {"class_name": "L1L2", "config": {"l1": 0.0, "l2": 1.000000013351432e-10}}, "dtype": null, "kernel_constraint": null, "kernel_initializer": {"class_name": "RandomNormal", "config": {"dtype": "float32", "mean": 0.0, "seed": null, "stddev": 0.05}}, "kernel_regularizer": {"class_name": "L1L2", "config": {"l1": 0.0, "l2": 1.000000013351432e-10}}, "name": "dense_2", "trainable": true, "units": 20, "use_bias": true}}, {"class_name": "Dense", "config": {"activation": "relu", "activity_regularizer": null, "bias_constraint": null, "bias_initializer": {"class_name": "Constant", "config": {"dtype": "float32", "value": 0.1}}, "bias_regularizer": {"class_name": "L1L2", "config": {"l1": 0.0, "l2": 1.000000013351432e-10}}, "dtype": null, "kernel_constraint": null, "kernel_initializer": {"class_name": "RandomNormal", "config": {"dtype": "float32", "mean": 0.0, "seed": null, "stddev": 0.05}}, "kernel_regularizer": {"class_name": "L1L2", "config": {"l1": 0.0, "l2": 1.000000013351432e-10}}, "name": "dense_3", "trainable": true, "units": 20, "use_bias": true}}, {"class_name": "Dense", "config": {"activation": "relu", "activity_regularizer": null, "bias_constraint": null, "bias_initializer": {"class_name": "Constant", "config": {"dtype": "float32", "value": 0.1}}, "bias_regularizer": {"class_name": "L1L2", "config": {"l1": 0.0, "l2": 1.000000013351432e-10}}, "dtype": null, "kernel_constraint": null, "kernel_initializer": {"class_name": "RandomNormal", "config": {"dtype": "float32", "mean": 0.0, "seed": null, "stddev": 0.05}}, "kernel_regularizer": {"class_name": "L1L2", "config": {"l1": 0.0, "l2": 1.000000013351432e-10}}, "name": "dense_4", "trainable": true, "units": 20, "use_bias": true}}, {"class_name": "Dense", "config": {"activation": "linear", "activity_regularizer": null, "bias_constraint": null, "bias_initializer": {"class_name": "Constant", "config": {"dtype": "float32", "value": 0.0}}, "bias_regularizer": {"class_name": "L1L2", "config": {"l1": 0.0, "l2": 1.000000013351432e-10}}, "dtype": null, "kernel_constraint": null, "kernel_initializer": {"class_name": "RandomNormal", "config": {"dtype": "float32", "mean": 0.0, "seed": null, "stddev": 0.05}}, "kernel_regularizer": {"class_name": "L1L2", "config": {"l1": 0.0, "l2": 1.000000013351432e-10}}, "name": "dense_5", "trainable": true, "units": 1, "use_bias": true}}], "name": "sequential"}}ä'¬ú¿-
+”
+layer-0
+layer-1
+layer-2
+layer-3
+layer-4
+layer-5
+	optimizer5
+OBJECT_CONFIG_JSON/.ATTRIBUTES/OBJECT_CONFIG_JSON
+T
+
+kernel
+	bias<
+OBJECT_CONFIG_JSON&layer-0/.ATTRIBUTES/OBJECT_CONFIG_JSON
+T
+
+
+kernel
+bias<
+OBJECT_CONFIG_JSON&layer-1/.ATTRIBUTES/OBJECT_CONFIG_JSON
+T
+
+kernel
+bias<
+OBJECT_CONFIG_JSON&layer-2/.ATTRIBUTES/OBJECT_CONFIG_JSON
+T
+
+kernel
+bias<
+OBJECT_CONFIG_JSON&layer-3/.ATTRIBUTES/OBJECT_CONFIG_JSON
+T
+
+kernel
+bias<
+OBJECT_CONFIG_JSON&layer-4/.ATTRIBUTES/OBJECT_CONFIG_JSON
+T
+
+kernel
+bias<
+OBJECT_CONFIG_JSON&layer-5/.ATTRIBUTES/OBJECT_CONFIG_JSON
+ 
+	optimizer
+global_step
+KI
+VARIABLE_VALUEdense/kernel)layer-0/kernel/.ATTRIBUTES/VARIABLE_VALUE
+GE
+VARIABLE_VALUE
+dense/bias'layer-0/bias/.ATTRIBUTES/VARIABLE_VALUE
+MK
+VARIABLE_VALUEdense_1/kernel)layer-1/kernel/.ATTRIBUTES/VARIABLE_VALUE
+IG
+VARIABLE_VALUEdense_1/bias'layer-1/bias/.ATTRIBUTES/VARIABLE_VALUE
+MK
+VARIABLE_VALUEdense_2/kernel)layer-2/kernel/.ATTRIBUTES/VARIABLE_VALUE
+IG
+VARIABLE_VALUEdense_2/bias'layer-2/bias/.ATTRIBUTES/VARIABLE_VALUE
+MK
+VARIABLE_VALUEdense_3/kernel)layer-3/kernel/.ATTRIBUTES/VARIABLE_VALUE
+IG
+VARIABLE_VALUEdense_3/bias'layer-3/bias/.ATTRIBUTES/VARIABLE_VALUE
+MK
+VARIABLE_VALUEdense_4/kernel)layer-4/kernel/.ATTRIBUTES/VARIABLE_VALUE
+IG
+VARIABLE_VALUEdense_4/bias'layer-4/bias/.ATTRIBUTES/VARIABLE_VALUE
+MK
+VARIABLE_VALUEdense_5/kernel)layer-5/kernel/.ATTRIBUTES/VARIABLE_VALUE
+IG
+VARIABLE_VALUEdense_5/bias'layer-5/bias/.ATTRIBUTES/VARIABLE_VALUE
+ú
+beta1_power
+beta2_powerm	m
+mmmmmmm m!m"m#v$	v%
+v&v'v(v)v*v+v,v-v.v/
+\Z
+VARIABLE_VALUETFOptimizer/iterations0optimizer/global_step/.ATTRIBUTES/VARIABLE_VALUE
+pn
+VARIABLE_VALUE training/TFOptimizer/beta1_power:optimizer/optimizer/beta1_power/.ATTRIBUTES/VARIABLE_VALUE
+pn
+VARIABLE_VALUE training/TFOptimizer/beta2_power:optimizer/optimizer/beta2_power/.ATTRIBUTES/VARIABLE_VALUE
+vt
+VARIABLE_VALUEdense/kernel/AdamOlayer-0/kernel/.OPTIMIZER_SLOT/optimizer/optimizer/m/.ATTRIBUTES/VARIABLE_VALUE
+rp
+VARIABLE_VALUEdense/bias/AdamMlayer-0/bias/.OPTIMIZER_SLOT/optimizer/optimizer/m/.ATTRIBUTES/VARIABLE_VALUE
+xv
+VARIABLE_VALUEdense_1/kernel/AdamOlayer-1/kernel/.OPTIMIZER_SLOT/optimizer/optimizer/m/.ATTRIBUTES/VARIABLE_VALUE
+tr
+VARIABLE_VALUEdense_1/bias/AdamMlayer-1/bias/.OPTIMIZER_SLOT/optimizer/optimizer/m/.ATTRIBUTES/VARIABLE_VALUE
+xv
+VARIABLE_VALUEdense_2/kernel/AdamOlayer-2/kernel/.OPTIMIZER_SLOT/optimizer/optimizer/m/.ATTRIBUTES/VARIABLE_VALUE
+tr
+VARIABLE_VALUEdense_2/bias/AdamMlayer-2/bias/.OPTIMIZER_SLOT/optimizer/optimizer/m/.ATTRIBUTES/VARIABLE_VALUE
+xv
+VARIABLE_VALUEdense_3/kernel/AdamOlayer-3/kernel/.OPTIMIZER_SLOT/optimizer/optimizer/m/.ATTRIBUTES/VARIABLE_VALUE
+tr
+VARIABLE_VALUEdense_3/bias/AdamMlayer-3/bias/.OPTIMIZER_SLOT/optimizer/optimizer/m/.ATTRIBUTES/VARIABLE_VALUE
+xv
+VARIABLE_VALUEdense_4/kernel/AdamOlayer-4/kernel/.OPTIMIZER_SLOT/optimizer/optimizer/m/.ATTRIBUTES/VARIABLE_VALUE
+tr
+VARIABLE_VALUEdense_4/bias/AdamMlayer-4/bias/.OPTIMIZER_SLOT/optimizer/optimizer/m/.ATTRIBUTES/VARIABLE_VALUE
+xv
+VARIABLE_VALUEdense_5/kernel/AdamOlayer-5/kernel/.OPTIMIZER_SLOT/optimizer/optimizer/m/.ATTRIBUTES/VARIABLE_VALUE
+tr
+VARIABLE_VALUEdense_5/bias/AdamMlayer-5/bias/.OPTIMIZER_SLOT/optimizer/optimizer/m/.ATTRIBUTES/VARIABLE_VALUE
+xv
+VARIABLE_VALUEdense/kernel/Adam_1Olayer-0/kernel/.OPTIMIZER_SLOT/optimizer/optimizer/v/.ATTRIBUTES/VARIABLE_VALUE
+tr
+VARIABLE_VALUEdense/bias/Adam_1Mlayer-0/bias/.OPTIMIZER_SLOT/optimizer/optimizer/v/.ATTRIBUTES/VARIABLE_VALUE
+zx
+VARIABLE_VALUEdense_1/kernel/Adam_1Olayer-1/kernel/.OPTIMIZER_SLOT/optimizer/optimizer/v/.ATTRIBUTES/VARIABLE_VALUE
+vt
+VARIABLE_VALUEdense_1/bias/Adam_1Mlayer-1/bias/.OPTIMIZER_SLOT/optimizer/optimizer/v/.ATTRIBUTES/VARIABLE_VALUE
+zx
+VARIABLE_VALUEdense_2/kernel/Adam_1Olayer-2/kernel/.OPTIMIZER_SLOT/optimizer/optimizer/v/.ATTRIBUTES/VARIABLE_VALUE
+vt
+VARIABLE_VALUEdense_2/bias/Adam_1Mlayer-2/bias/.OPTIMIZER_SLOT/optimizer/optimizer/v/.ATTRIBUTES/VARIABLE_VALUE
+zx
+VARIABLE_VALUEdense_3/kernel/Adam_1Olayer-3/kernel/.OPTIMIZER_SLOT/optimizer/optimizer/v/.ATTRIBUTES/VARIABLE_VALUE
+vt
+VARIABLE_VALUEdense_3/bias/Adam_1Mlayer-3/bias/.OPTIMIZER_SLOT/optimizer/optimizer/v/.ATTRIBUTES/VARIABLE_VALUE
+zx
+VARIABLE_VALUEdense_4/kernel/Adam_1Olayer-4/kernel/.OPTIMIZER_SLOT/optimizer/optimizer/v/.ATTRIBUTES/VARIABLE_VALUE
+vt
+VARIABLE_VALUEdense_4/bias/Adam_1Mlayer-4/bias/.OPTIMIZER_SLOT/optimizer/optimizer/v/.ATTRIBUTES/VARIABLE_VALUE
+zx
+VARIABLE_VALUEdense_5/kernel/Adam_1Olayer-5/kernel/.OPTIMIZER_SLOT/optimizer/optimizer/v/.ATTRIBUTES/VARIABLE_VALUE
+vt
+VARIABLE_VALUEdense_5/bias/Adam_1Mlayer-5/bias/.OPTIMIZER_SLOT/optimizer/optimizer/v/.ATTRIBUTES/VARIABLE_VALUEşµ,¢Æ{"class_name": "Dense", "config": {"activation": "relu", "activity_regularizer": null, "bias_constraint": null, "bias_initializer": {"class_name": "Constant", "config": {"dtype": "float32", "value": 0.1}}, "bias_regularizer": {"class_name": "L1L2", "config": {"l1": 0.0, "l2": 1.000000013351432e-10}}, "dtype": null, "kernel_constraint": null, "kernel_initializer": {"class_name": "RandomNormal", "config": {"dtype": "float32", "mean": 0.0, "seed": null, "stddev": 0.05}}, "kernel_regularizer": {"class_name": "L1L2", "config": {"l1": 0.0, "l2": 1.000000013351432e-10}}, "name": "dense", "trainable": true, "units": 20, "use_bias": true}}+&‹>k¿¦½³Ì½ÿb	½Õ=Koà½T¾°=…Q>Y»¾Çÿ$>¡ªÃ>¼›Ì»S©½drp½X“¾€>€½Ÿ™½´ôÆ<™>9$B½ş(8Âì¸Én¹#¥¹NÇÏ8±¬¸6Nl8D¬Ó¸,—¸¯D“8è·´8‡?¹êñ8`f¹2÷7·«-¹sğ¸ZE)¸l~Ù·e V¸4VÕ4:^|5l9¤50Ì6EB4rT5)£4k5·˜G3c'?5#÷¹4ûjÛ5¬í4ZÈ5!Ş»2R?6Õ†m5WmP4;Ö&4¹µJ4¼°¾Ù»Š½Hßù½óÑ*¾8à=D^<ş~>){¿7»¶>ªhE>–Á<q1¾Ú!ä½È¾R{l>»¾…š#¾%-@¾ûìç¾BF¾Ø^ü¿y³¿=õÖ!>óÖ¾=Ò¿ü>=T]ö¾_éá>iFq¾´ô“¿m‡½*>Æµ?`§¡=.r3¾Ê]Ø=/>Uô»>ˆ¢V>ü>¦jÏ¾†	¾¯P*=·)G¾óô<ª¾@j’=Î¹t¿]‹“>Dø,=iÉ½+…g¾7‰ƒ½ZA¾Aº±=dc¾* <½2„0¾i‹ï¾»hš½ö ¼´n>’›s>Ì—>×]ü=Py>œİ>ëº:DÌ¼ù¨="ù½Rœi>a…½Úm“>Iïu>Äœ>J«m>ÓšŠ<‰cÉ<À> Øà²…v¸Í0¬¸¾¸<ŸB8ÕLV¸Îãİ7õN·ø=¸1—7b d80±¸\M28bË®¸·ïUÚ¸æ…¸ [ç·Û¶ü¡ø·Àòâ³†7¸&W_¸rii¸vy8=í¸ôXj7H®4·C¸Ë·4a†7AÑ8jÅ^¸ÀŸÑ7PâY¸œŞ¤¶ğ‰¸¿4¸,«Ÿ·L­“¶‚|›·²Í6ë·w»¸dÔ¸Êøë7o ©·Ú-/7ìÂ¶[qo·Í€X7>fì7)2¸`V7|¸˜‹·,z3¸|9ë·(Ì¶`¶4+°H·L§8¥&¹:K¹b¡k¹<S9Œ.í¸à‚¸8DY¹ZM[¸&šĞ8¡Å9ºM¹@E˜7¦*P¹T—Æ·
+¹T½)¹©X¸üÁt¸ÆÙ›¸yyí0\6¸4c–ç4€ù?5¹Î3;40=­3(ë1:x3†¬20‘º3¥&5@oÀ4éd5^Ÿ1yĞ^5î§46”È3òÙ22«ø•3 ¢0ñc˜4âƒ¾4®k5µ!C3ë4%¬‚3/ ­10¯´2üyP2ëpŠ3€5Ûé¯4Şığ4™öÜ0295ê‰4œ°3ÆU#2Ò&x3ù1]0Â…‚3¼Ï§3#4¥_¶293[2S¿ü0‹/829M2s(à2‹ŠÓ3kW3ÁàË3g¾Ú0Mó4|p3!L2ÖÚˆ0§4T2P+ƒ5Kü68Y6l¥6M5yO®5Á<5ÜÏÓ54Q4Ù6ÕÏ5Å}6;f5#õx621¹3Ÿ!»6n6ôj»4/æÌ4/Ä5€)–mD{"class_name": "Dense", "config": {"activation": "relu", "activity_regularizer": null, "bias_constraint": null, "bias_initializer": {"class_name": "Constant", "config": {"dtype": "float32", "value": 0.1}}, "bias_regularizer": {"class_name": "L1L2", "config": {"l1": 0.0, "l2": 1.000000013351432e-10}}, "dtype": null, "kernel_constraint": null, "kernel_initializer": {"class_name": "RandomNormal", "config": {"dtype": "float32", "mean": 0.0, "seed": null, "stddev": 0.05}}, "kernel_regularizer": {"class_name": "L1L2", "config": {"l1": 0.0, "l2": 1.000000013351432e-10}}, "name": "dense_1", "trainable": true, "units": 20, "use_bias": true}}Ål<\Üş=Y¤ˆ;Pø¾%İ9>‚°½TG;[‹ ¾ÀX=)°F>†~I¼å/Y¼”„=Ç;<‰â£¾ü˜;½J*<Œ0—¼$Œ¼ü&}½ëç‚¸õù9zû%¸ªä•¶Åè–8È6¿·UT¸,È	¹¶9h8x7™8ìÃ·<<ú·¶NX8XU
+¶¿¾¸hZ¸~¼€¸tı/¸²¹	¸Âª’¸Œmæ4™˜5Æã54æ½1À¤ç4SS4+ë†4Ç5tñŸ4É5—ñ3é34¯jœ4)ó†2ÜáÆ4""h4Iz5ÂkI4l–'4ğÂ°4Tÿˆ¿tœ¾¶2¿İª1¾15s?ª	•¾Ö¿íŞ¾BüWÀAãŒ?¸˜f¿&Æ?¿i»¾º0¿ş[„¾5Î ¿4n.¾©ÈR¿Ä³®¾#í’¿a«(>ï¤J½¢¶n=êW‡½„‹ºıPr=ÇL>)6É=×¹œ½-m½´Y>”×9>Ë\=7=f,a>¬0,>rK§=Èlû=q¡>İŞ=&`E>ÕD½h:¢=æ}ì½¸œŒ½ş=š~~>–>-…=Cu;=%A=Ô¨=wg´»½€½§q•>¬c¤=Ó0T=@°>/Ì
+=›ï>Ğª±=9ß½ğñF>­C’>Ÿ+¾´W¥>€êM=átu>?‹Ğ=™†ó½Z$T>C	>ó+<Ò¤>½ƒé==Ùû=é->Â}>BD¢>Û;k>³S¾ë?<c—½0=¿Q‘;3$¥>?#0¾ûÊ½©>JW•¼²8Â=ÉD³=¦E¾ˆ›K=ğ|R=?½ı½:¾ï‡½Uèª=µ¾mY>xi6=$bø=…¾2Å¿<?>¼àëA>Q´ö=ìh‡½0&4¼'†<¼0ÔÌ= >#¬<ã$M>À=>I“e=§¨Ú= 0Ë;T[> I>u4>Ì6E½›×=Ÿù9>Ä	§¼“S+;á=n½ebü=kÏ»‚+˜=¥¾¦“e=>ÆÚ=ğµ¼øü¾zë¾tßÇ½æQS¾ÌZ¼üG±?l÷´>'=Ÿ?#æ3¿L·? q?†0÷>Õsˆ?É3¿Mm >È;¾»Âz?Nü–¾´Ô*?‡¬M>WÑi?4J	?'tJ?.›?>È¦=wl@¼<s<§ı>/±ì=’PÛ½JG>‚%>²±”½æÒ>}|¾ŞØ-=¡›†>K•¾µá>Ÿş“>—Ê½tœY>%>f½”•†>çu¿$:²¿\|¿™•¾©üã>ëÏ=e¤¾¡Z8¿
+">òØò>ÅåÒ½öÃ¾ a¿¦ô¾P ¾Âû¿ã_¿¡Ä¿éX!½Âé½¯‚¨½w±!¾3Ù=¹Òñ=Ç9¼s–İ=§ï¾/Œ®¾ä(<2=òîZ>ë¹ü»€Â=Öq9>¡v&¿>&;¾Ú¼´>{’½C±b=d½>’I>=İé½ë°À=‡¢>#6ø½»q>¯Ú°=3º=F&=™ú½–ƒM>„P^>|À=1>k,t½Œ€‡>ŸQ–>i™û=çwF>²w`>¿'„¾©ú…>O{¾–P½ú<¡>Â&@¾.Nw=ûôÇ;JKl>[¾ø=ïå–¾õ‡¾ïäô¾º‚3¾ÍíÆ;i}¾ìZ'½¾Ÿ½4GG¾Y‹`½Ï2a>Ay½Ó¥8>ñ7>Û‚=ê„‡>…#.>°{>±=íªê½ æÉ=§'8>à¨©<7É>]"ø=6±ä=u}=öp>]G~>G>Y{=fQ¦>HÑ<÷^½%¯>ö<}mî=k{Ÿ>1Ò×½‹¼™‹=Æ¼bû½¼Ã}¾«÷Ë>àï‘:qãº¾±ò”½#ªñ=FA<½Ü%w>9ÛÄ½Mî>äi</"¾eè=ê%C>Üm4>sá½ªr¾ğçm> ñG> hÿ=˜º6>Š<€>qE4>‘É>¦¼ü=[‹>=ª¤=Š>tW[½xx<=ƒn>ÎM‘½*Q>¿0>§*u>’Z*>!h"½ÌV<=Ñ!½=ŸO =›f¼Cc>:/º=ÜÏ>1¯#>)lH=ûf=ÔŠ=I[L¾%†½©>o =ïY½F¶¹;Í0.=­Fn¾¡½,€» ¨ >—X½Íx>¨&Ù¾:´ =ìO|>fNb>)Ã¯½H‚•½^°˜½å±}¾ØªŒ<Ü@?Xi”¼Öp>(XV¾•Át>ÅM6½*]ü<á;·>ÓÑ>uÍL>(Ì?İĞ0½‹6=C£°>ßN='0G>²X¹>^0>©½ĞF°=õP=ø¼‡Ğ=k™‰= ±>ıCÚ=İLø=8è=êå
+=	–‹¼z-í½œi3=(°=iÍ¡<pŠ=—0å=!¹«=(´´À3g´ƒ	dµêKµ³c5°;M3#PµSVµ§µxV5T«`4B««´É­ƒµ •†1ğ&2µPÓF´J_†µÀé7´ğ»z´„—›µôW·^ç89·,Ï5¡l…7n³·ŒĞV·šEê·ÌsH7¶ƒ7¢5å¶Vy
+·„Ju7 ÁÅ´°(Ÿ·²)(·__·ÌX·€Ç%·
+äv·Øu·Aô8è‹&· '259m”7bŠ·ws·»‹¸ùb7#î’7İØ·T·§j„7À‹´îµ·´X8·X^^·œp·–0·û¶ƒ·–S…·mÌ18”ìG·`‚4…‰«70«@·äŠŠ·ê(¸<èr7<†¥76|·R-/·%ª›7 9æ´¿Ê·<Q·Ò…”·(&@·–U\·Ÿ<£·<š·Œ®¼7ïğ¶Ä;Zµİt/7áŞ¶œÀ·µ¸š·}Ú6Şà%7&Ğ¶ˆ1À¶(ë7°á
+µ—K·¬ÌÕ¶ÄY#·8ã¶­n·®ä=·bØn·¡8ëN"· ñ85ÑQ7ô¾·:h·BÀı·,._7<U70íø¶¢ë· š…7PRµ"ş¬·†:·Ån·O·òB0·y2„·s\·1†8´*·»UµÉƒ7Ça·G‚d·À×ç·,r77ûŒ€7¦ƒé¶§·Äƒn7T)µ„˜¢·Zo(·‚Äd·ö#·Qx6·O¢‡·@2G³ğÙö4LQµú×€µh‚@5 sK2¤EµL˜µæŞµà‹|4 ê,4!´<\£µ˜_¢³¤7µ¨ú¨´”eµˆÎŸ´Ô¥´p,—µî…¯¶[Š7ÜûB¶a=´R¥¨6t¶Â.‘¶‡ ·$oš6v‹¶6Üä:¶ş@¶h•6 íµHİß¶j$m¶¾+¶â¾+¶NÊ+¶ÊÒ¶Nš¶0×6F	I¶¿¹iµ„ìY6zmûµ6†/¶œìƒ¶àÿV5vpI6>#¥µr©íµ4è5ß´€Óµ”Á´µüŒ¶}˜¶ä¸+¶¡ÖŠ¶¹/·€Â7öºÛ¶Ø^¶8nJ7ĞèµR·Á»·””7ö^N7»"¶$~¶à å6 ÄÙ´ç|7·n?$·ÄI··Ò¶şZZ·êép·<ä8¨ö,·ÜÉ‚4Õ
+™7®·Øzy·ÛÊ¸ÚÍ_7.‘•7¼Hô¶š·ñ#†7 ·µˆü«·'D·n/‡·@ì*·ª+7·x·¨ä!¶<±Š6¨Ü4µ¥54("6Ø@5h>òµw›¶øô16ôÓB6ĞZµ(“-µ@ „3jÉ´¼³Ê5(¶€0öµP_µà¯5ZŠµáy·ï¬&8ê&:·(j†47­Ÿ7`Å6·T€·Ô”
+¸8>c7?š7î‘	·Äî$·°»’7À ±´¤À· @·œ6‡·zã1·àUO·yæ–·UÔ·âîÄ7(f½¶æ_á4§~%7àÉ¶¹U·i¤·e*7H
+)7¨ª¶’8Á¶Ëû=7€^3Í…·Úvå¶l+ì¶dº¹¶üÚ¶±·&”·³­@8ÛU·Ô©ë4r¹7^‡L·&–·c!¸v•‡7„Bµ7ìA·@C?·-¨7øÍµ*wÛ·p\e· ·›·(&M·äÅh·Õ¬·zIN·}"8§H·€eá4!/‚7q·ØvR· îå·È8=781}7ŒÖá¶nÅ·¤ÿj7 2´0¼··FŠO·j™·Ë"·\Qn·ˆ9(¶@™Á6t<¥µØØ4Ü`b6 „2ÆG¶t4Ë¶(;6d\b6À¯É´ÀóMµ¸LÌ5 ÆÒ1èF¤µ&%?¶èxH¶0“Óµ8‚µìü2¶Hùµò)6øt	¶z µ’ıI6@ß“µ4À!¶¾p‹¶¤ï—5$­!6Èá]µª’µè•o5§Í´º%¶º—áµö—`¶Â_íµ(hãµòZ]¶|Øè¶ˆÂœ7øj¦¶ˆ¡½44Z7¨Š ¶ÀAğ¶Ğ…· Ú6èM7TUx¶|”¶Cÿ7€E³fó0·~–·¶”İö¶>Ö ¶\=·¶-P	·e2ƒ.¬½³-©.on,=W/²äí-£w.ïğs/‹qÖ,¾-/ù:Ğ-<Õ-ªiú-çS,2µ/Ñ.°A/h@ï-Â¦.¦“¨.¶‚Í2—m¡3ˆ2ÅV§/Şòè2Ô#2rŒ2å–¾3œşš2€õ3ˆ%ã1ğ"2<&¤2û6?0wL"3LĞ‚2µÛ3Ì R27z42}±Å2<T3TÓ3½xL2ÛÁ/r43~œI20ç³2qì3,Ç2Ù(3´i2½HR2)¬Ñ2)¶y0¬aJ3Ğİ¥2¸>$3‘²ƒ2ˆÑd2êì÷2”"3a³ğ3º|2›gé/}è<3®Ãy2[oã2à­4? ô2Ã?Z3'¼02ÖJ~2è™3µ¾Š0_o‡34–Î2ô˜V3…“¥2å2ºí3T&¶1Ô"2ç%1ñË¨-*¤ä1BS1.7ƒ1qò¨2…›y1¹Œ2‡»0	
+1lu1Ï»Ñ.¥J2ÖÓW1†
+Ö1Š@1r13-°1¤mŞ2QË²3»Ø+2¬·/9ú2Çş,2•˜2
+ÉÍ3îA¨2Û 3€]÷1•ï/2®\²2`~S0Ğ±-3±ê2Í)3v•c2•£C2e<Õ2|I2Øè2BLš1$j.ºbo2‡5‘1“2×G53gÑ2?j2P1Èhš1d2õy/[ÎË2_ëğ1?i2—G³1£©1dû?2n–/0-/Ïw“.¨³?-‚/vgt.j8/„‡0\éh.ÿpŸ/ÑKI.ãh.éô/wÄ¼,Óˆ/¿°.¡Ù/Û6—.ó8–.LK7/[70–é0Û†//î,+oõ/ŞˆA/ÕŒÌ/™V“0ÿÖ/ ¨0ÆíK/­˜/Rå/‡'Å-õ[0¢˜´/äÏ/( s/‡¬n/Jğ/UÛ¦0!õ0“Æ0Õ¹T-†sò0rAï/§|0¡™1€‰-0÷1Ş°/ùPó/›K0ê-Uş@13Ö=0ò&Ú0‘Ô0ğ0“ˆ£0lE2Eà2@,£1·+V/+Ã;2pIV1	¡Ç1´•¢21"ı1»ó_2õöM1ÙŠ›1¬jè1¾v0a¬1'1`jS2â=š1Úg~1;óû1”]
+3oiÒ3ŸòW2&M0M~3?­O2(»2{Åô3hÎ2TK43GW2èY2î¬Ö2_
+‡0Û·F3ûª263’Œ2Úl2'3Æ †1ïûO2XÉ0¡yœ/saU1Ğº0;Ôî0Ò2¹k#1»Úh1°0ÚXà0êÕ¸0Ù»/3®A0ÑIñ0rŸŠ1=³ç0¾€¸0üe1¶3ÏÕ3ÎÓ]2q:À/“'&3E¢]2y*É2Qş4 l×2Wë?3’ü2zM`2×ç2êo0Õ2u3‰<·2õ‰;3îœ‘2-6}2X™3SØ2œÁ3Ô+b1ùp.Q<%2^È‚1@šÌ1^ø3ZÍä1k>2nğ/1”ás1!‹2³‰}/RŸš2|zÂ1uk42A?”1õ1ùT2‚™>34’”“20Ñ8Y3£l‘2Â™3‚:/43ü¦z3ÄèO2—u•2w 3Ñ†©0Î_˜37ƒğ2Mñv3ÌÃÀ2rõ¥2¨/73=íĞ2!ˆ 3?1!2ÓQ•/LÄì2ˆ– 2¾D25Á3Ïíœ26‰3Ììä1rM$2¢É¦2™'90Dá)3úC„2r†359R2ñÂ62Á…È2Ä˜1‚m2N*ß0œÀY/¡I‰1iSÇ0áË1192#SF1æï™1D¶§0 ¯ä0•&1»}…/ê1_¸1W|´11¨œ×0ÿfS1ƒc0¬ä 01ó~/IşŠ-ŒR0ú(R/Ó“Û/,uø0b)¦/ˆ‘}0I #/¯ƒ[/ĞĞ/´Tˆ-Tãt0K)ª/:•f0‹/±w€/ÅÁ0e%2[3Ô-€1	’/’-;2Ìf€1ª|â1ë¹3¢²ø1¸ğV2‚×71u›‚1í2!) /C?~2í³Ñ18X2gt©10‘1š&2€)–mD{"class_name": "Dense", "config": {"activation": "relu", "activity_regularizer": null, "bias_constraint": null, "bias_initializer": {"class_name": "Constant", "config": {"dtype": "float32", "value": 0.1}}, "bias_regularizer": {"class_name": "L1L2", "config": {"l1": 0.0, "l2": 1.000000013351432e-10}}, "dtype": null, "kernel_constraint": null, "kernel_initializer": {"class_name": "RandomNormal", "config": {"dtype": "float32", "mean": 0.0, "seed": null, "stddev": 0.05}}, "kernel_regularizer": {"class_name": "L1L2", "config": {"l1": 0.0, "l2": 1.000000013351432e-10}}, "name": "dense_2", "trainable": true, "units": 20, "use_bias": true}}†"â<PÛY>VÒ¨=O%~=´øp¾ê6|>B±<I°±<ßŠ¿=H³Ç= .=¬>l¬<Hô#=[&¾´¢¦=²ğû<Xab<n=%=H¯^· œ8¾	Î·`^â·å{°·cU8[
+·VcÎ·õ£¸èe¶ ÑF4nY„µ`G·ª	³· Î3¸âÓ¸ü®ı·§ìã· YL· ×/·–Ğº3ùFï3493²b3mÉM2}¹‘4W _3¬X·3t‡3\<13Ól3ßbˆ0{Şp3*‡3ÅXk3¨M3†Ø33Í13„»;3æ£3Qª >§O½›Á=g÷¤>ƒáê¼°:¾L->p~¼ùO’>Éu[<OZi>Íš£>uŒ>Œ3>WŠ=’÷×¼tS>{Åš=‡º=%F†> ¬_¾o{?êòÌ¼S¡¿Ï¦ö¾O >âXx¾ &¿ÈnÎ¾–ñÖ½)ü=AÛ¦¾äâ¾Ğo°½ûÂ¾p8J¿Br_½kÀo¼a©½V_•¾»B>éƒ/={Ù*>‰7>?•=‹n‚¼®È><]Œ=:òF>KÏ;5>’>Á=
+(>w"~=ëj=ó%>Ş7‹½õ¿ =üg;>9'½¬ë¾›~’¼¿Á,¾Šæ<h8Ç>¶=4)€¾ôÚ	¾É[Œ¾|ÿ®½¼©¿Lù¶½sÌ½ûa¿>šSW½Fï¾«0K>Ø">WKB¾ÕGÜ½İXÀ<wÅ¾[Rğ½ìJN¾Ø>>ß‹½£œb¾|lF¾µ´ƒ¾Ä8©½`€F¾Ufƒ½g;É½'ï¾õÔ¾£mÆ¼¬êã½AÆT¾˜ä¾İŸ>Ôn=Z®y= XÄ½+ß—>¢g=&ó=HN¦;|¬¼#¢‹º–ía>qß„¾•!ê>›æ'<ûO>?E÷=jpä<;Ë<Ü™|>ß91>¼¨J>:ŠÄ¼& ‹>Rİ>ù/½%»½İ®b>°íR=3Õ>›`N½mMí=DÌÎ>¹Ë®½¬>£˜>nÏ…=ƒ?=¦8> FØ<haC>¢Û²>˜ŒW¾Ò8_>i–>Ú2Ã>¥ğd¾Ak>Ÿ0Ä=rŸ>m1x=!}N>o_¾$û†>ô?T>Eq?ê¢>¥¸d>5lÉ>ôH>,¹>Ï\Ê½äğè=«ŒU¾³Ê½Kw½"6L>&Â±<c¾İÄ]¾«Ğ¼Úp<¾şcŒ½603<ávV¾×Ÿ›¼Ãi¾~é»¾ô‡Ó½ß<ôwø½¾gnÏ=´Ã9¾Ä¨9¾¬®Q¾’hŸ>¡´”½´n¾	.;¾Ïw*¾ i`¾y´[¼±m)=«Á¾İ­[¾I½¢“<¾–Ù0¾BĞ½,½bõÑ=Ì°=‹¾È=há=(~¼<¨
+=BÂä=¯aŒ½ÛÚ—»¿>Aëœ>W~½{Ê>J¡;=[	Õ;P>‡¤=vœ£=CG>…@Û=²¸J>èOÈ½!">$|ø=”İì=ƒ{;bêK>Ë s»ÑìG¼ã;
+>Ä»Z>¨Ã(>Xƒ>eø°=ìeŠ<Ë,˜½+ó…=ÕvÖ=ÚÚ™=Ş/1>çÈ,¼Èm>íf¼s}½µŠÜ<|>„›V¾TJ¾‹ä¾oí7¾Ùô½kuü=kš¾X¦‚½ºÑ—¾ô#Ó½®“½ü¼rR¾!´¼½t?=Üè=<ª¼H>£ İ½£Ù<ø¶=•;=ÇÁ½2Ÿc>İÄ5>¸¥J½à=Œt	>Ï@‘¾¹ğ‘=Qõè=”İï=¯Âá=Á9K=4­$>BÓ¿è>°ü>Eâ9?«/¿CI>Şn\¿_¦¤½çª‡=*)7>áz'¿m‹=Cu‰>‚–?9ú$>¥pD>?Î‡>0WŒ>,Ü¡=¶8>ÔV±½B>¢Ùä=kª§¼Óª¥½şZ>°¤>…a>Gv-½ï>’ç=€„ª=Ê±î=
+ş§½—@M>ŒV¡=¡Ä7>ºÊ>
+A>åÇZ>ÿZŒ<?ãi>öO>í³f=J½µÜÚ=ûK?Sû€>*³;4ZX½Š%&=?Ü<±Ş=éh¾cìŒ>é!³>è.>xEU>TÕ>TØZ>6õu<¡®>a¥=.f“½İ'=5uâ=ËÜ>wÈ> —{=ëq=y K>Ï>®š>ƒÍF=	òq=h8>§f>NG<nué=#½L>Û×=/e=óœÎ=¹—_>Ö:S=³Dì=n=C®¼Mì4=@€À=ì3¾“Í§>Ê9U=U¯]>â>µ¹<4†->Y'>QZ>œ|>ÿ:ß½˜‹J>àú>	Eš½gD4=Mı=dèS>©÷œ>÷uS½ÿŒÈ=“P=şüô¼Ûv>Ö³[>b>?>ñE >[£j>’%>=±‘m>Jr·RtZ7Ö··ßŠ·Åà
+·XéD7<iß¶¼‡×¶oZ·¢—´:x¹¶PôÉ54Å¸¶ì_Ù¶Ó½Š·âÙ·à–·  ·z×¶27·HÈµœ¸6—#"¶CU1¶§:§µ^¯6 %sµh^³µÎp9¶to´0vÔ´ìà4J#ÑµxQ ¶Úâ©¶Hv¶VM¶Œø-¶‘èµ`¸®µ~­Ã¶˜-7"Ÿà¶P§Ä¶ôÏÚ¶*ˆ7Z!¢¶"­¶´;ê¶Ø‘´ğ¨~¶á”5°t{¶¢ş¢¶DLP·.xó¶€Ö¶nAÏ¶Æ}š¶Ğ7Á¶Û56’´†Ü4É45‡Ÿ4†¡µÖpÉ4­ü5³=Ê4Ü™C4¸Ø 5 ©²xºç49*š4¤èÕ3‚Ùw4©˜–4ö G4. ·4ÖIÒ4à)¼µÜ´6d+y¶8%™¶8F¶b'7ğ¥µ)ÓŠ¶FÓº¶èµ@ƒ5Ñ7µ¼.©µ†ìo¶XÇÃ¶Öû¿¶®0¢¶>âŒ¶{¼µ ãsµ¸Î·²ş7l7&·?·ô4N·(Õ7ì,ï¶Š-·¬Ä>·°|Ü´¢£¶„+¢5(
+Ÿ¶ô¼·w"œ·La3·f;·İ®·+È¶"B·\Ø°¶—"7n:Ö¶0›¸¶ç‘Â¶†ğ7P•¶4 †¶^lÜ¶€Ş³²$3~¶`‚”5pçƒ¶ÄH“¶èÎM·N×Ö¶>DÂ¶º¶DO•¶2X­¶ğµ¶èÅ7ö¨Â¶NK£¶ÃĞ¶@Ç6*‡Ÿ¶à“p¶4CÉ¶H(40Li¶Dß6²`¶ÄŠ¶Ì‘S·šEĞ¶X¶´¶öW´¶èÚŒ¶&h¸¶¬ë%¶ É_6´y^¶I­I¶Ê $¶$Íˆ60ü¶ş|E¶4|g¶#´ôÊµ 3D0÷µƒ/!¶kÌ¯¶tÙ|¶Ş3b¶ÀkV¶ƒ¶¸Ë¶ğ\µ ¥6ìx¶XÏŸ¶mÈf¶¬±7À¢§´n°•¶–éÅ¶¾a
+µÏ5xä@µ¸&†µŒ{¶“Í¶.mÌ¶b#ª¶‚ó¶»£µ€ìJµÒ©Ú¶hBô6Œ½ù¶)ã¶z·÷î6Ìç°¶pÒé¶SW·(E×´„Qm¶ğiˆ5 /e¶ÖßÃ¶İÍg·ß·ºqø¶Úğ¶1›¶´Ô¶^3ì¶ 87î³·:úá¶ˆz·Øæ7ø˜Ã¶üéÍ¶G·0H¬´ìÑ¶|ğ¤5nİ’¶Â,¾¶¯rn·h·kï¶dhé¶NÉ²¶@Úë¶¸õœµä
+€6`«÷µ¸ûëµèW¤µ[‹6°Ù}µhp¥µ‡G¶z,€´ĞòÛ´.5@‰µÄß½µî…¶ŞóG¶ÿ¶“û¶¾»Åµ x¬µf\¶_‹6¯Àƒ¶n¶ü°…¶@P¯6–Ê1¶ôbŒ¶…Å¶4ê³´D›ÑµÎ5€UÅµ–²K¶.ì¶b¯¶œ¶MŒ¶àØ ¶@¯D¶Æ"$¶ˆ4[6x’#¶fã¶è£2¶ ×µV¶Øõµº÷¶PO4hşßµrá5¬¼öµÄ’ïµ–ş¶Ò1¶ÖŠ¶T©,¶Ø¾¶´¡(¶ê€£¶Z7Â]°¶8–¶î=°¶ˆ1Ï6è¾¶lÌq¶Xã¶¶@ 3úšW¶Æê¿5`¢W¶z¦{¶@1·ˆÏº¶Ø£¶š" ¶øÒ€¶š¦¶prUµØ6LÌ?¶ÂÏJ¶ËÙµ_ú7ğ54µB“‚¶…€¶kL´p 5 Ã3P¥µ<n$¶-¬¶×„¨¶ê´w¶€¶ˆµ¦µ §`µ^H”¶ñ:7àıµ¶ö{œ¶‘¶$o7è”}¶¤A‚¶”˜º¶€×²tÉR¶ÀJ}5ÌÒ]¶„”{¶şZ'·be½¶v¨§¶Ş”¥¶Ôô¶ò’¶ğŞ·ô„7´û·C&·qT3·ØI7l Ş¶R·e¼,·X¾º´¦óŸ¶€I¬5è©›¶ŒÎï¶œo·ìø#·Â¯·®·Tù¿¶šK	·ü¶
+³6D¢¶öÚ‡¶Ã¯Ÿ¶ìÔ¦6Llq¶”q¶xí¤¶€“3ÄD¶½ƒ5hu?¶â*e¶±	·`Å¥¶È×’¶bå¶ì_¶†B¶%:2ªˆ¦2Ï+2.÷ì17êh19M3ë]ğ1=¸~2—2¶LÎ/ø–1ìß/‰İ2ì1y²M2YÈ*2›hõ1ßZà1±€2U2?¸0
+ Q0ò¼/«­˜/µ¦.,‹¢0a+¨/Q´/@°/„ß„-äGÈ/öi-‹EÄ/|
+d/Ğ¨/-rˆ/YÑj/¡’F/8ˆ/ñíô/İ®œ1!72Œ_ 1É‚1Bæù0|•2¥h„1Í2‡©˜1ÓK/äØ#1´¿`/-71Ø51ÿá1[­¹1Ç¿†1òy1Ò‹1÷¦1¤áq-}¸†-6…t-ÇyS-O¤,³02.pC-èd.3uZ-­:,÷Ê-	ö¯*µ'”-6lè,¦Ì…-9‰-ìH-Ş-“±h-Æt-ã”1qâ0% ¶0+Ÿ‹0›/Â1Ut‹0¥01à0H3©.'Ù00ä-D‰¥05äM0÷“=0>\40H50Œ0-P0³+Ş0-$2w½2G$+2o?2iq‹1&ş73ˆ2p)2i22 óÅ/ê÷ª1r=÷/³2!©1‰z2‡?2ãp2‘~2j2-I*2;Š¶1dâR2 ¦¼1©›œ1^ß 1¼¼§2E1Hİ)2f©1ïN©/L¥K1şu /°¿1ÔÑ:1$è2BTå1et£1æ’1Uf³1×¢Ã1‹±¹1Zùb2€Á1áŸ1F15d2ôÇª1º}32+ª1hÚ /€H1×ì/ù´É1ú,=11&2%õó11¬1æOŸ1†¼Ä1¦ Í1jƒ0Ù_è0Öÿk0ÄF0	j€/Ä,q1H:0W¤³014_0Kê<.œÄ0ª•½-gİ_0+ö/¾q„0°Ê_0Ao10Öï0Nï80”[}0‚1%Lß0aá»0?2‰0ÂÆ/ƒXÍ1µ?0Jfœ0Åã¤0PpŠ.™à0%p	.è>‘0 GS0Ş<0>"*0øÿ.0ş&0Áš<0F4ç0{±»1hT2Z-¿1"˜1Ïc1½IÆ2ôÄ˜1Wq!2œ¶1Ì±M/œáA1sÉ{/á­—1m2>1·527IÑ1Òœ1Ê‘1DÄš1‡Ã1N0¾1oh2€	Ç1U¢1:%1¡¢¾2%££1e002õ»1¯…/¬G1Pkœ/cª°11E1Ô
+2åPí1Šºª1½Èœ1È·¯1.‚Ì1m{ 0¡è€0#·ä/ŠT´/dÓ /,¹0ùûÁ/\B0Œ¯æ/¦üM-!ˆ/ô;O-8³/ÌÓl/¬0\å/q¬/§/êˆ­/Ay 0’í0åw1óç0}Ù½0wb0ûë1Ø|µ0öK15Ûå0I¬ˆ.ÏÌy0æX7.©½0ŸZg0.1*œê0fPµ0OŞ¡0ßw²0éò0Ø^0ÊÜ1%y0â«C0 »K0Ø3!1N0
+ò­0Ão@0.	.v˜0ÆU/?á0%0ÔmÎ0.v0Ñ…c0XÍg0í;”0'0Ëpa1t¤2ãl1ªB1ø©Û0 K2HK1{½Û1IX1•ı./gí0+1q/E”d10ç0ÄÈ¶1\‰“1ğJP1V„A1”ôb1Fx1J_J1E–1à½51m1Sd0À×+29ş	1Æi¯1 S/1zJG/§Fò0aì-ñ÷71†G³0¨1Ù"1£U1]KĞ0ÌX1¾>15ºˆ1T·2ÿ…1‰n1¯–Ö0kVy2µ!i1}¯2«1¥…ˆ/”S1²t;/‡‘1Ü
+1Ñë»1+_¨1¸!r1®BS1ô„1>¿‘1¢2›—ª2V2V:ô1?­|1ä3ƒ¥õ1ı¿„2u2‡v¾/ª™1ã/·û1ğ—1À_2+³/2p~2¥‹í1¶A2]e2RiS1Îõ1Ck_1,71ÃÁ0äaS2¼O91h>Ô1‰L1Zæ4/ãá0l>/MU1Á…Û0?"¥1¤/‰1?FC1…Ú01%)P1ue1€)–mD{"class_name": "Dense", "config": {"activation": "relu", "activity_regularizer": null, "bias_constraint": null, "bias_initializer": {"class_name": "Constant", "config": {"dtype": "float32", "value": 0.1}}, "bias_regularizer": {"class_name": "L1L2", "config": {"l1": 0.0, "l2": 1.000000013351432e-10}}, "dtype": null, "kernel_constraint": null, "kernel_initializer": {"class_name": "RandomNormal", "config": {"dtype": "float32", "mean": 0.0, "seed": null, "stddev": 0.05}}, "kernel_regularizer": {"class_name": "L1L2", "config": {"l1": 0.0, "l2": 1.000000013351432e-10}}, "name": "dense_3", "trainable": true, "units": 20, "use_bias": true}}Õø>5zé=ë]ç=¾ó=¸C>½&¦=Gâ=J/‚½ù½ÏÖĞ=ºRg=æy>Â™´=L™=@ ¼¸Ú>Ÿp=yœ=6ƒû=A > öHµÁ¯‚·Ü•å·Æ·×·Z·ó¡¿µ‚½ô6fâl7iƒ
+¸¾F-Ï·ãõ·Ít¶¶ü¶¸*¬¶¶7|Rp¶ü¢[¸hØ¸0†0áàà2†[u3ƒË 2Î;1:û03ko0‚m˜/e±µ1öİ3‹r!~éI3;ãi3Z}6/İğ}2‰g€0[r1Lj@/•„I4ï™3èKı=wÜl;â¦7= 	>’O`¿¿Ï·=x³¿òá½.K$=â:>¦i<¹K±=¿Y(=m¼ˆ¿PM=û¿Óa¼ƒH¿yåa>oÜ=;£ ¾ÔŒŠ¾Ù¾ğ½.á½Z^>G“¾^P¦½u¤W¾Nö>=A¾i{¼Èê`¾ù>¾×>æºŒ§l¿æ®½O=_åâ<±½ß,½ª =‘¯½¨@>-Ş=ÛJa¾¯©Ø=ù>T¿p-â½Y½;^ş=¾DÇ½B™¹=Œsâ=aŠ.¾ƒƒ½Ãû>’m·½zf¿ö`">«!ç=.óp¾AF¼= .0=‡¯¼¹‰=ß±¿=¡á=¿û>^·@¾óÒœ=‚(Ö<”U >ï.@=İ±ÀãË›½^èÙ¾u;<+-ª¿£rP>šhÙ=‰>—ï™=>>bÛ)=8åºNfç=z¨áºVš¾¿©QÀÄğ§<Ø¬1<¹˜ã¼•4>5yI:w >z ›:îğ`?ıx»Î¤<ìÁ<ÓJŸ<šxú½¡HŠ¾ñ¾B( >|%X¾Ó³’=˜­=W½0>?êQ¾
+L>¾£Ğ~¾œ§“¾Q+:>ú5–¿e*•¼œ>Û¾D>]ıª¾]êº¾=€>¹û=„Vl=Hª<¡Á:¿Ä2 =Éñ¿ŸP‹=>,Á<ñ#Y=‡1»†$ı=êùå=Ğ¾˜¿8‘Ş=r2~¾è>¼¿¬=Ëä!>3=q›?/Ÿ>:pz>Ÿô„=œ‰=lëC>dRD@Pt>?Dí~>ò >`W4=Ã”>¡Ü>/GŸ?dü¾ò<?ºÀÆ=¶”ì?ÙĞ¦>óç>×M7?›F.=§2Î=9‘Á¼ø#â¾.6=İ}6¿7‰=>µúT¾%ı%>¿~ç<rDƒ=Ã/ó=è?§®&¾˜¾ôg¾]ˆ¿m'>ƒ=ÛOq¿!ae½¡Ğ<ãÇÙ<¯Ö¿>`_q=6œo¿Éõn>ˆş¿=[æ=åµ<%dÉ;éé»8¿ÉV£½ãöv?œå=7+¿ñ¦F=äj†¼@¿çªÕ;/ğâ<<J½]-¿‘4½ ªå¿Ø 	¾¸ÛÄ=Ëî&>SX½!}¨= Ş®=
+X¿kå¡=õnÂ½˜}½=Œä¿Ó³F>UšE</	4=j#¡½®2ú<ËªQ½ÿ)I½4ã‡½¯Ÿ=z&?›G¯¾é“¬=F¢ª=æ¨;În¢=œMÓ½Iá¿ˆ>yåU=b…ò¾ocS=êŠ½<€×¿¿®jv>!Ë6=¤ä{»èÌ2¿¼ïq>Ø ?¿QF;=É¡>­c„=´OF=ãª=Uz§=”…">øşÏ=Š¿ûèD>#½G_=3’‰=²9½ß*Ô½Cçğ<*}½È¹=k
+Ì=©m¿âİ½ö;¡¼y•U>ÕÚ½ŒL¦»	ú‘="Ş¿{–°=‹š¾­çä½hg•¾>@Oï=yg?(>Å‰<E.Ñ=ŒÇ-»âÄ>Çºß¾_/é¿‘!ã=»
+{¼Ñ@>Èı>4»_è=>|Ù¹‚¿!-êº·–>Ñ€=÷3Æ½¢\N>Ì">@,£=FuH?3>)¯(½¿.×»é'p½ZY„<9Hx;¨€=¹¥Ì=k§¾â=ø·?ùÕi¾ü|R>“L>äì¤=<9¾+=P>ˆé=nóã>Ò<>“cP?L}½ @½ =˜ö<.X<!¯=Ë›º–¼‘=Fê[=iá\¾{Æ«¾ú$>B¡’<ªÀ'?åßf=¹ ò=ŞEç½Õ‘q?Ï«<%Í?Ç->¾çí>döğ=hµ½ÿâá<<Ô=Ğ;Ü?Ã(=ˆ"É=8e=ç¶+=Âœ‰>5CÓ=é¿ˆ¿ö=ÿ^,>x‚¿=¾W¨ä=$’¾¿~Ãª¼¶À…>³÷Ê;»+»¨2ş=‰Ç¹=ØMØ½ÖY>‡¾Pu>•¿4{>ÂW§¼ƒë™>ŒÄÄ=Q  >=4=ìE#¿ª½=Õ¿ù_=òW;ê±=@Á<(¤¸=ªa.>½Ÿˆ¿O=Nˆ¬¿!_,<.P>`–>Ÿ0û=/ˆFµRáN·¶G€· Sµ¶(ıO´äl·x!Ó¯d-“6|…ç6k"‰·³½H,ôL{·ÄÏƒ·u°»³l€·ı%*´zùË6V$˜³ˆ¨å·}M· Ö1ş=]¶70ç¶u¶D¥+¶Ö¾‹¶ÆÇ µèÈ5áÜ‰6Î·Œ X¬ĞÉÈ¶õÊû¶Ü[™µø†Ğ´ˆ¤Ûµ¤e46ã…šµÃca·íÚ·æBµ:¯·ĞÒ:·ÌV}¶)¯µ&ÿ*·z)t³/¶b6AC¥6®hG·4«­H7·¢Õ@·òY´`Ú¶–ç½´(Ç–6ÓU4´Ât§·è·µz²·*Ÿ·üd¶ å³8Ô·™Uÿ/²<6™è‰6s)·ÿ·,ò,·Í#·/j±ãÍ¶BÅ³ÚU6nå1<·”Î÷¶Æ‡í´s,¶ R6¶üŠµ¡æ©Hn:¶¯àÁªñz5–ÃÄ3d¡1¶æ¦,Ó8¶ d9¶U-*hV{¶µ…* ‰™±¤“«Z™¶ öµ@˜U³|V5¶Àqò¶ì¶;iZ¶ò@u¶›mµö’ó5ÎÄ–6£; ·ñ~#®³Ë¶ÚÙ·±Ìµ '´4Õ„	¶AÔ.6M±Ôµ¡t·á,·÷ïµB·É<·ä~‡¶¹³ +·¡vQ12V6”·¯6RéK·O†«œÕ7·nÄA·Y{^³˜`ë¶:Ú³‚ê61ı/³lÀ©·Äz·%A“´Xôßµˆ¶¶XE"µzœ9´hëûµõŞ0‹ 5dê¹5,5&¶Mñ-D?¶ôÃ¶?b±Ğ†Ó4ôRõ²îÏ6Šš0´¢ˆ¶dKğµNŠµdø¶ß·”ôC¶³Ï·L10òH6l‚6nÊ·6äÆ,dB·p/·õr³Ä$ª¶+øé³ÆG€6Tıñ/êm„·(#à¶Ÿ X´˜#<¶ü‘u¶šİÀµSów´%\¶±Z³N2P5ˆÑä5O‚¶&š›,æl¶Îï~¶â» ³DJ'¶pHÔ³¥\·5MAM²fôÖ¶öM¶ñTµÄv.·‚ËZ·~¶î´Ø/H·ŠÂ1³MY6°»Í6"j·éè¬À¡U·Ğa·p-;³nC·f™Ì³¢i¥6ÈÌ^³oÃ·–U0·èd¡3Æ–i¶ğ:­¶8ª¢µĞÇà´Œ·‘¶Pïí³f3©5lÃ,6õÂ¶0š’-Ÿe ¶
+±¶î$o´ÄÜµWê+µÈ.6´p³×»!·¸0”¶¦J/µşŞ6·€Æ€·&ÏÆ¶ŠH¡´Ü¹Z·¸e1>w6¡V7Œ·a*-dwu·Ä
+…·Kje´Ü ·`ÍÀ³ÔÒ¿6h‘±´ë·TÈi·Káı´4û¶œã·¦qN¶Fõ³Fı·ş¤30-816ÒÁ{6H_·ŸY»­’j· »·\Më²,Ä¶‡Ó³Í²i6ôE±ø)„·¨‚â¶Ã´.µ$]u¶ÀÆw¶l©¾µ&N«$¶1«ªÏé51^r5xŠz¶Š¯W¬L¤‚¶x´}¶²yşª4˜¶<€º©Ì6ë442Éª8GÙ¶¸“&¶éï#µÔ¢°¶Tğ¶pIC¶
+Fe´pÙÎ¶³Ê¶2Y÷6¢Nd6Êf·uPU+d|è¶ü›ù¶ê‡ä³œÃ“¶Ğ6…³Ø,G6ñR6´P—Z·º5Û¶â´Ú´Ü¸Ô¶„ı¶Ê­/¶Nb«´†ì¶»A²+ê 64„S6FØ·éé[,P˜ú¶Ş·Å\¦³Ü¸š¶›ë³¾V6´¿³Tla·â„Ç¶Ü!µò
+· e·	`¶ ˜³
+·BØ#®³EF6B§ƒ6@‚"·ğÛ›­O·r§!·Ôû=° Ç×¶Ö°’²=@}6–u0 AŠ·Ä¼é¶pÕµ:„·=)·‘€¶€‡—´.Á·—¥ƒ²Ü96ïËœ6²£5·÷ì«°.%·¦/·P¸³@bŞ¶†w±³%U‚62´÷³NÉ–·lÉ·¤$3µÚ=·¼Ÿq·:”­¶ ÔT´f
+Z·e—<2:]†6àQâ69ë‚·?ç+ü3k·èrx·gË´LÍ·ÁH*´ ¾6¢Æ´d§Ù·f«G·—6/%øğ2hæ%3İQ»1Ï•Ò,…‚3‘+ÔsX/›ÿ/3
+Ác ç‘3èÿ'38‰Ÿ(“+µ2¿+M$´0ûÖ*7Ô3{­¤2I§.ôÛ0ÔAó0#z/å/‰²s02›ô.‹É.ğ6
+0Ê]1Ê.*[²0[Ø0E—-	u).ú¨Õ.ù$Š/”-Ïÿ1{ºÉ0Ÿü½.
+)|2ÄÈ°2eÂC1…8o-Î¦2äİc,6"İ.zpš/rT¡2º¦ö|2²2Ğ©*@92lO,1?0X’*
+’d3	Û02¹y.¸¿X2¢“2²q$1pqì+hèŒ2Ræ<*Y*×.¥”@/‚2Âmİ»ƒ2=•2<·&< 2[ÑL*Ï40%¹&ø93XC2;},yƒÜ0
+1¾Ü¨/oOWKŞ
+1Mã·\R-$’)lî0Æ… 1gq1ä¾ó¡v!1qo‘XmÃ,¦%‘>¬1*‚0¶&/y!0={1SÆ¿/¥ö/t„0yA/'àM.ÆKD0øø—1Ÿ<÷+Ö0Ñv1÷Ôı-ê÷.)(/]­/Á0.U)2”?1*.Ç¦€2ş/²2~J1›Æƒ,^¥¨2œ'Å*Æ¢Ş.æ®/Ûô 2‡ü«Ÿ2üF´23zô(éE2"ôì*¸ŞA0Êƒ#*×Ğd3·12‹m5.å~1;˜G1´VÎ/—È,p²61ŒMˆ+Ä˜..bs,.x"+1[õû‹Æ'1âG1¥§è&ŞA+0s'¸*2ä]/Ú)”&›ó1ğ»Æ0?¼¨.ÕàN2/R‹2k~1Ÿ¢,  †2ç¼*ÙØ.-/\Şt2]l×y2'j2@’(ÜB2[v“*«§0²úz'C/3Ùh2UòY,ê°º0ˆD1…Ã”/s*,ƒ€ú0m‚*G,-"ã+.>Kÿ0–õ«ëğ0fÜ1w |)Ê‹0Üy0+-×Á.’ñm)”œ³1“ºŒ0Zşk.%í‘2OiÊ2§je1½³,äN¿2.¡*0Sã.•Ê¹/¬¢¸2„ Ûµ2äÜÌ2GìÍ)°d2yh;+ğZf0Ö]é)¨ı‚30K2ål	.ÄUÙ02J/1…–/‘jğ-­‰1¢¸–-ık-İ/ú11Áw™"1Xi/1ípË+†=0…ß2-¼ÂC/³"+^ô1â'º0sæ .[Ü¾2ƒ3—a¤1·o-ô- 3Yˆ+<¶/Æ§!0©È3î 6 ˜ù2D3+ /+oø•2S’,ìäº0Ä÷H,¥’·3„©2·šM.›}/2óÚl2Û™1	Ãñ+fc2k·;*S.Ì›/M¢R2F6«PÇT2QVp2lFù'ªw2¶2d*÷ã/‚8'Â†3ÿ!è1Z]–-¨11Ğ´1×&[0sWµ*Ê´1cî?I.»w,W²š1Ğ±vF¦1Œ·1£²ƒÆª1¶y™Øó-è¥$«_2)1.k_	2ìêD2×ë0½j,¶u72ß{ *“.Cl/_32YŠ¢ßP/2aF2ğ™*#×1üÔ++šrâ/ƒ¹\+?ı2"#È1Ú®H.I»2<2÷œÑ0Å™,ë	22k=+6Ì….P/
+Ë(2‡Œz~'2	4>2	)ÀÈ1µßU+/ÿ¿/‰ˆ`)9?ğ2B†º1˜¦Š.¦2^2‰á“2÷¯(1¾ï"+éM2IĞš)(Ü.u/æÒ2^}İñK…2P3–2Hëq$èØ.2xÄ{(2¾0dó‘$K:3¶‰2:M.Õ¬M2wÒ2ü‘'1Ë9 ,ó‡2:QJ*®#µ.Co/“„2ıMË2É$’2‚Š)@ƒ$2öo+rã!0%"Š*A;3MD2­æ.³Ì2ö3
+ñ¡1§é,@35²+¯2/ş5î/Ó 3ÃŸ@ ó|ş2%¹32qº)÷>š2S%W+ò† 07°ö*QØ¶3312€)–mD{"class_name": "Dense", "config": {"activation": "relu", "activity_regularizer": null, "bias_constraint": null, "bias_initializer": {"class_name": "Constant", "config": {"dtype": "float32", "value": 0.1}}, "bias_regularizer": {"class_name": "L1L2", "config": {"l1": 0.0, "l2": 1.000000013351432e-10}}, "dtype": null, "kernel_constraint": null, "kernel_initializer": {"class_name": "RandomNormal", "config": {"dtype": "float32", "mean": 0.0, "seed": null, "stddev": 0.05}}, "kernel_regularizer": {"class_name": "L1L2", "config": {"l1": 0.0, "l2": 1.000000013351432e-10}}, "name": "dense_4", "trainable": true, "units": 20, "use_bias": true}}‹×³=drù=ß+>)>Ï÷(>i<n>=+9>+v>ş>à“`>æ»>“	>]‘=dÊ=¸c>e¶m=äÙŠ<Pİ]»‡$>Çı,:TÈ¶Á&¸]Â·¨Ç5µV:7xøz7ÖX¸Æ´·BÇÑ6]Sì·^¼¸@T¸ÂI‚µÀ;Ò¶¢,Ã·zI36•—n,J>«Â5¼·Ò *²yS0¬Í4d&O3±»ß0‘	2æåˆ2µu{4¶P13 p/¦E 335×3¢ür4Ô2/h£1¤R3ƒ0äŠgiÊ@3j³³…$¾×ŸŸ¾4”¾ø³X¿/ì1¿)Zó>_†Ü½B?>Ñ"¾—½)¾1İ¾X7€¾„åU½çŠ>¿9½™ïÙ=Tš—;ôÒ?»bõ²=2˜Ğº«D‡¾İ+"¼Yš=Ùg?¯Òí½œ”¦>¦>——¢=ááÚ½>‚º<odí=¥™°=[xz?è5=Ş­>¬&?‡<‡Á{»[Âº(µº(Cù½©>oŸ°=•`‚<®ª(=^g#¾YÃ÷=ä°Ï<|5ˆ<Ùm¢½&9G>ÙşÄ=NÆ¾¾³g½iÈ=?õq>9€Œ¼NÕ »£é¼7½"º;+™¾%C	>¬K¦=>÷ƒ¾ÑòÎ=8ˆ>/'¼-=a=Rì¸½9L¼¼¢`½™ıv<šêÀÛ^¼:É=©\Q¿Nï½W8»l!D={’ºã7Ø½çf¾Ø‡–½€×N½Ó¡|¾2‡i>om}¾–[7¾d[k¿&`¿Ñã½™İm¾øt	¿…>¿½‹=c½À#B¾ä\ò½¹I:˜@â½¾ò»Î3¾GtT=yš¼=!¸Š>¸‡M½Ûrm>b0¿=\†¯=ÖÈ…¾Ù‡½â™=ƒ%>!»>êÈ=Æ$¦=“j5?©K:Ğ£á»©X•=ÅšºM`J¿¦ÓÊ¾ÍB@¿$ı×¾[{€¾¤W½šÛ¿`³Ï¿E’¾ü€æ¿Â0§¿f¿!¿qûp¼ô3Á¿^àœ¿â6Y<s%Ü¾î8»|¢È¿½1åºÎ	†¾ßH½Ñ {<TtŞ¾îiİ=iğ€=bò(=ˆ;­=ã”>>ª!û¾.=‹È¼Îê=4¼X7Ê={¾Ó½Ù#Ÿ;Ï¿#»åH =ÈÌ½ºäQ¾êÆ-=˜È;½ÿ‡“¼w:‚¾¹ÍZ¼\f¨¼—_ ½+u¿ıÎf¿îvı¼¾]½„3>tÜ…½J.>½Ôüx>IX½t}:ŠŸ=g&±»¨;1=c´½=E}<è€Ú¾1¿½vX]¾aış=€/ò<X#i½?˜a;ü{=°Çÿ=ôÿT¿û6N<.¬4>Ãm*¿'Û?½F‚»‘,½F4İº¸ôò¼ÄÃå=|<D½øU­;1(¿½iÕ>Ua›<Üg›½?Ë¾Ğ?±½¥Ï¤¼‹»—?7Ìé¼±ùP¼	ø'¿?¼Şà\»Sã€¼Å§º~”ƒ½77†=Sî =h^>‹İš¼(X{=µ=ıa¬<cg„½Œ$	<W	Ò=J>“×Á¾¢áá¼¥"÷=X‰¾Î½–ª:Ó¼ï=ïÀÒºê=>-´=Z‚v=2¸=Ñ…½/¼L5>”Öû=PË¾ùx„½†â>@ßî=¥šz¾¼8Ä¼eÔ=Å¾«×9»H’»(==rºÈşV¾²l½¸Tô=GA?ä»+¾‰^–¾6éÈ¾™Dj¾y^ <»3º>¥½¾wi¾teî¿Ë¡Í¾×‰“¾)CÊ¿Ä”áº&R–ºdrr¾òÄ¶ºJF`=t>€o÷=È:&1Á¼æ×»ˆ0=_ç>’=r=FÄ6=rÛ	>J'>i¸ ºm“ı=á™=5ĞºÈŞK=²Ì_»Rr>êu…:20½òh½éøí½Šˆ¾³r¾Ç6,½¿ç¾‡ŞÄ¾ú²ş½òb'¿šwÊ¾¨0Ô½îdœ¾ŞH^¾ÉN÷¾ç¾¿õì¾A»]9†•¿v±¹ºèO”½”*¾ƒÌ¾·o&¾\kš¾ª½d™¼;ä}¼—#«¾]§5>zzŒ½Ré½O£¾Œwÿ½F ü½˜<­ÚÌ½z}»ğÀ»½\ãáºÜÕ™¾l:¾Ï‡<rg	¾m¶¾/¿¨=¾%B»–ª¾91Ô½!£í¾‘³{¼è<İ¾ü.ª>&Í¾½³4¾%¾Ô½l£¤ºúğâ¾Y	»ní>O>ÚêÄ=ˆ‚¿Õ»›½ ïÃ¾î©y>—<ô=wbÃ;Ì$•<.„>•`>CF¿4=ô9ò9ı@¢¾ùøx¼÷_»?V*>>÷q»:5v¼ºu;=eı¨=¸‰8¿E¥£=6¦¾ªğ=Õ=¼t<0¾j½p¤=ál‹=bÉ¿”w†¼ô.¾=Æ…¿!.<
+œºËƒŒ<"¢„: Q8³à…n28ww³ñ}3t±Á2üæg4P É³$O7³ F¬4øåä³t‚³tÃ³¾Å7­À¾R²pb4³¸t²z@‚+şÎ$«Ğ;@³™7³ª*&Ÿ³ı‹·ì§+·½  5ßÀÂ5„İ6Ü À·H·ª‡{4òŒn·dyz·:{½·¸ù³ìX3¶F-·é5¡)h,ÌLX«4™%·M•›ª°:”´ìµ»·Ì1f·¦ÿ5Œÿ$6½J6¸œFU·Ü5öZ¤·4ë§·°ş·B¯²ÀÆp¶ô]h·tHî4Lmq¬Ì`İª ^·ßÑªl¬±ò¶
+A”¶RüÍ36Xû4Òé5¤&·ÊU‰¶qw3†Vâ¶hyØ¶&Ú#·d9I±Ü
+šµŒ©•¶Âê3ÖÜç¬ò`«v¶Š©ª[Î4
+6¸5@&5(‘JµÊTnµgDêµÊÄ5÷q5eö™3­yJ5ÿZ€5Ì¿Ä5Û´H«$4(35ü!f´Ì:Ğ­.P-*Ó95ÅY÷ªDíş²dµ¬·@±S·æ=é4‹í¸5¬(ñ5<§í·àD·Ik4˜·\|š·˜Êé·cbì±¨»\¶³U·ôğÛ4oƒ.*­ÜÁ«Ò;L·ökà©˜¯‹ØÍ0ds…²ä20Æ\®@8(±Ë™r°Û¯)Ø{®e“¯¶­(°Wù1&O¬ş¥¯WÓ°€Ÿ:,E$½®=!«S‰¥¯rêÄª&2Ôñ`¶U$
+¶?;²NŸ5WĞJ5Ôš¶* ¶®±c4»Z…µØGI¶ş˜¶J#É-i!µ5n¶àóµ­Fºˆ+°«J¶É£ª dê±ó;¶n]êµß+Û4A5Áğ5ØX‚¶d.ÚµÒD4ğMœµÆ*¶©÷¶Ê‚ñ³±!µ„wìµù‹!5.Ó9­ ú)¾ãµ}3˜«¬~ì´,ÙÓ·hñ·Ï5"$A6<f6D´¸ÌÌp·²öM5¾¶º·v†½·êV¸eı²–7ˆ¶î*ƒ·åªŞ4Ö$­gÚ_«œ¼z·¾ªA½Ğ¬šfÅ-²˜(­”ì”+5<¤­òNü-1~…,b„…­¦ó­I˜­Æ˜¬İ5«Âˆß.rŞÈ¬–Š3¬P¯]Pù«jÅ=«òw]¬d$ªÄVx´‚T©·<¢O·-é5&O6Ùw36„öè·ş_@·3› 5UJ”·ty—·4.å·P²¸Y¶:™Q·lê4vµ ­!v‡*¦RH·~µª²Q4´v8¸·ÜÚa·Jz«4ıÓì5À6xı·@Q·ôÈ4r¥·<Ê¤·Zù·B­Ï°TÚk¶¬şc·™”4_««Gğ{«ˆæY·îìOª0Ğ_2áA_4FsŠ3M&³hT„³,@r´Jn#4ö¡X3“È‰,©F3SØÕ3Á;.4ã~ï¯tA2F!•3ÜÑ×±ÀÏÁªˆ&ª9Ÿ_3vª\°@-NûÌ¶†|¶êß)Üû¥¬+å«NÖ·³i¶åP-òÛ¶Ây·¶
+·Ş
+ª`)†µ¾|~¶u¸²ª(/-âG@«´Fs¶UTe*´ì¤3ÈÏš4fE3ô¯“³ i´ß‰´|]o4”3ÔÚ­Æ§R3m¼4”cr4I^†®ØÅ—2Z¹Ú3»q÷±àó­>)FP™3‰ŠŸªĞÃË´@¶ŞÛ)¶pÿ4Œ6*µJ6fŞ»¶Ş¶¶ 5Šr¶,u¶¸¶´_T´‚C=µĞ_*¶¦ 15ë °­GÇY«Ç5%¶CÂªQ}¸1í994úªÁ3L),´plå³¶y´ÒÂb4ù·3äN¶­´04U4Vr4ÎØ³½®2ÜÉÎ3ÔL¬²ôÇ¶­›sª¾c¾3.ìªÆÄ)µPÍ+¸½Ò·äÕs5şÄ›6J½6tTl¸šBÃ·ÑŸ5–…¸²¸œ~h¸À+Ø²`ÌÜ¶ ºÔ·<F5™èU¬g2«ÎQË·{ãO«À8´äñˆ·Æé'·èQ‰4LÏ5Ï¢æ5´i¼·j’·ûß©4|au·¨u·HZ¹· óš°<{/¶²€)·Ä|q4›,Usª8 "·kèc*DXQ+UÔ¦,ã»,ÈË*
+çg+ÜS-ş'&-Ê­é+6 3+¬F,½T,[Â -\	S=*õÒ
+,Ù7k*ëŠüôÜä ı+ö£Jè+r”c3ø¯2•‚Æ,ïjÎ.Ícù.YÕ3‹–2¾Fä*?§(2[63…Î3•4ó+’ô0oş±2G×I,P:[ÃK>£2·éÄ½,É¤Ã3¿s3YÙ§,q—z/›Fe/˜/74«k3Ø{,áEˆ2HÄœ3Ñ‡14ÙŠ¶*™+R1„3”,¾m5VGX43TŸ(u1*Œ~Q2g!¡1 ;*íq-HJ--!Ä22™Š1„3)k~1™Ù'2„¾2ÿù'Ïâ/İ£1ÀB‹)©¨ZgÌs'–1RU‘vùß,Z»-.;-¼¶İ-Œ/¥-¶.	/ˆ D.9ş,õ£)QPG-e%¨-_(.Å•„+ÒÃ2+&ë#-TµR,ëW0’Yô\
+-|ÚxÊ…+„ ¶3'q3G©ÿ+¢zÓ.mf².zÿ*4øñ2!·2*#ƒ2%V’3 ¸%4­‰ª)¨.D1VÕ3Q!_+±¿÷ÒÜVà3ÛLÑ™Ô%Ù4'ß‰9(¸ÿH)w5FûL,ıN(¶\ß%õ€;À&Æ©'I.á'[." $ÁŞú&¶¨ët@iËå-£&¢·ôæ *Åæ0pê00‰}¥'äû-°œ-èeW1 .0æc¡*~k!.ûU¸0—ÀP1v‰$³Uw.î30&ü4!a˜?¡Øİ$0wQØ YD,ñ¤/şş.	ç -N8p.ìr+/!S0PiÙ.a–+Ù¯^.ş„/›¸0PÌ,ÚŞ/-–ë /ùÁ!-òq˜6~•ë. q¼V5-Çÿæ3¤13<-Ä,ük§/Î”/»JX4Ï3i'_,`V¦2¹3BQ4ñßU*Gx1_ª43]},İÑK‘Š%3…éñ˜ÌÃ7"3€{!mIîgÕK¼×8„"·P!Òm‡­× .æ!8hƒ".Kº) £Šv!bl©\Ñ|ÛzSŞh!<©˜‚,ûG¢3Å—ù2øŸq,?/eƒ-/~ò4×³Ö2*´+Ö³a2…‚3¤A4î…*ˆZ.1˜×ı27ú¼+ÑÁ†F•ª—è2Ø[s\,GÆ3¤W3èú•+Ğè/ìÎ.G}94 3Gt+,m2Ù¼38Ã34’!'ÛÄT1¶ï3[#×*VdÏËC÷3²Ø/Â×V)Aw]*KX*Oş!+ÕÛ1(.‡ç,™-+* )enš¦‚	*ê¼”*	I¾*ÿ%/“'NØ*dV”&šÈø¯‡a%¯)ø–ÈnT_E1ÌÄ—0HJlà ×‘ÓĞ¸1‚0¯,0W0ª(1³1›«ŠÓ.•[š0Ğê¥‘ù=aén0¦éU4ä*Îà+pû>+Ê: ,ƒT+é‹=-œ£0,pâ*YÀB¢×*!Ï—+Ü,á‹*$)zº+úyÆ(´áqÆèõ*ÏHÔÚ-T0õv/d5Œ. Rƒ/g0¤”0ö¥O/!é,Ÿ[/Àwı/PĞ0û8[-tÇ¦-lw/|tÉ-ùûüç@¼a/370^'V›«*o*¥3+lj`)íº,ô+Z+s‚§)‚,Å8*-oº* §…*'¢€*êqY'†ó5*'_)9àÄ¢êü¹)Ãb™ı¶- Lš4GOí3íˆ-ÈÁX0zÎC0-y5#Ì3WK-¥šX3Fw4B5šM[+r³%2ÏYñ3µTÎ,:7É‡G%İ3–È/×—õ+ïW3Mn¥2•[+!üĞ.Ò«—.lÉ3ON2Xï+øƒ2u_,3<4Ã3®œ‰&Iç0Z?¨2ğ„*G¶áÕpĞ)š2æDS²ü—{"class_name": "Dense", "config": {"activation": "linear", "activity_regularizer": null, "bias_constraint": null, "bias_initializer": {"class_name": "Constant", "config": {"dtype": "float32", "value": 0.0}}, "bias_regularizer": {"class_name": "L1L2", "config": {"l1": 0.0, "l2": 1.000000013351432e-10}}, "dtype": null, "kernel_constraint": null, "kernel_initializer": {"class_name": "RandomNormal", "config": {"dtype": "float32", "mean": 0.0, "seed": null, "stddev": 0.05}}, "kernel_regularizer": {"class_name": "L1L2", "config": {"l1": 0.0, "l2": 1.000000013351432e-10}}, "name": "dense_5", "trainable": true, "units": 1, "use_bias": true}}>Àw=Bu¼¹¨¬@7í™‚=²2×=¶…=qæİ½„Ş¾¯/¾³u>‘w=ÅzÄ½H¼=¾ÔÀ=é>ï|~¾´f“<W†=PÑ½º0ƒ»¿«;B‡€=ñ¬r88ıo¶®w[¹Ú6¹ĞÈ4Æ²¶´Õ¶
+çª¹şX9¹A ¶§4Ù·Â+‰¹ü‰Œ¹C¯3n¬V¸&èS¹¨n¶ªma«ú“+²e(¹™P(§í…/·(ä6´ 6b*00,03ƒ2Â ˆ7€š6«bÂ-K2º(27R°>74U.-”1Ç4‰Ú6©8/•ºNˆ±"ñt6Ñ00æ             

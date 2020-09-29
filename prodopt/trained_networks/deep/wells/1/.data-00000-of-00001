@@ -1,0 +1,119 @@
+óò!y{"class_name": "Sequential", "config": {"build_input_shape": [null, 1], "layers": [{"class_name": "Dense", "config": {"activation": "relu", "activity_regularizer": null, "bias_constraint": null, "bias_initializer": {"class_name": "Constant", "config": {"dtype": "float32", "value": 0.1}}, "bias_regularizer": {"class_name": "L1L2", "config": {"l1": 0.0, "l2": 1.000000013351432e-10}}, "dtype": null, "kernel_constraint": null, "kernel_initializer": {"class_name": "RandomNormal", "config": {"dtype": "float32", "mean": 0.0, "seed": null, "stddev": 0.05}}, "kernel_regularizer": {"class_name": "L1L2", "config": {"l1": 0.0, "l2": 1.000000013351432e-10}}, "name": "dense", "trainable": true, "units": 10, "use_bias": true}}, {"class_name": "Dense", "config": {"activation": "relu", "activity_regularizer": null, "bias_constraint": null, "bias_initializer": {"class_name": "Constant", "config": {"dtype": "float32", "value": 0.1}}, "bias_regularizer": {"class_name": "L1L2", "config": {"l1": 0.0, "l2": 1.000000013351432e-10}}, "dtype": null, "kernel_constraint": null, "kernel_initializer": {"class_name": "RandomNormal", "config": {"dtype": "float32", "mean": 0.0, "seed": null, "stddev": 0.05}}, "kernel_regularizer": {"class_name": "L1L2", "config": {"l1": 0.0, "l2": 1.000000013351432e-10}}, "name": "dense_1", "trainable": true, "units": 10, "use_bias": true}}, {"class_name": "Dense", "config": {"activation": "relu", "activity_regularizer": null, "bias_constraint": null, "bias_initializer": {"class_name": "Constant", "config": {"dtype": "float32", "value": 0.1}}, "bias_regularizer": {"class_name": "L1L2", "config": {"l1": 0.0, "l2": 1.000000013351432e-10}}, "dtype": null, "kernel_constraint": null, "kernel_initializer": {"class_name": "RandomNormal", "config": {"dtype": "float32", "mean": 0.0, "seed": null, "stddev": 0.05}}, "kernel_regularizer": {"class_name": "L1L2", "config": {"l1": 0.0, "l2": 1.000000013351432e-10}}, "name": "dense_2", "trainable": true, "units": 10, "use_bias": true}}, {"class_name": "Dense", "config": {"activation": "relu", "activity_regularizer": null, "bias_constraint": null, "bias_initializer": {"class_name": "Constant", "config": {"dtype": "float32", "value": 0.1}}, "bias_regularizer": {"class_name": "L1L2", "config": {"l1": 0.0, "l2": 1.000000013351432e-10}}, "dtype": null, "kernel_constraint": null, "kernel_initializer": {"class_name": "RandomNormal", "config": {"dtype": "float32", "mean": 0.0, "seed": null, "stddev": 0.05}}, "kernel_regularizer": {"class_name": "L1L2", "config": {"l1": 0.0, "l2": 1.000000013351432e-10}}, "name": "dense_3", "trainable": true, "units": 10, "use_bias": true}}, {"class_name": "Dense", "config": {"activation": "linear", "activity_regularizer": null, "bias_constraint": null, "bias_initializer": {"class_name": "Constant", "config": {"dtype": "float32", "value": 0.0}}, "bias_regularizer": {"class_name": "L1L2", "config": {"l1": 0.0, "l2": 1.000000013351432e-10}}, "dtype": null, "kernel_constraint": null, "kernel_initializer": {"class_name": "RandomNormal", "config": {"dtype": "float32", "mean": 0.0, "seed": null, "stddev": 0.05}}, "kernel_regularizer": {"class_name": "L1L2", "config": {"l1": 0.0, "l2": 1.000000013351432e-10}}, "name": "dense_4", "trainable": true, "units": 1, "use_bias": true}}], "name": "sequential"}}ß!ŸzŒ7
+‡
+layer-0
+layer-1
+layer-2
+layer-3
+layer-4
+	optimizer5
+OBJECT_CONFIG_JSON/.ATTRIBUTES/OBJECT_CONFIG_JSON
+T
+
+kernel
+bias<
+OBJECT_CONFIG_JSON&layer-0/.ATTRIBUTES/OBJECT_CONFIG_JSON
+T
+
+	kernel
+
+bias<
+OBJECT_CONFIG_JSON&layer-1/.ATTRIBUTES/OBJECT_CONFIG_JSON
+T
+
+kernel
+bias<
+OBJECT_CONFIG_JSON&layer-2/.ATTRIBUTES/OBJECT_CONFIG_JSON
+T
+
+kernel
+bias<
+OBJECT_CONFIG_JSON&layer-3/.ATTRIBUTES/OBJECT_CONFIG_JSON
+T
+
+kernel
+bias<
+OBJECT_CONFIG_JSON&layer-4/.ATTRIBUTES/OBJECT_CONFIG_JSON
+ 
+	optimizer
+global_step
+KI
+VARIABLE_VALUEdense/kernel)layer-0/kernel/.ATTRIBUTES/VARIABLE_VALUE
+GE
+VARIABLE_VALUE
+dense/bias'layer-0/bias/.ATTRIBUTES/VARIABLE_VALUE
+MK
+VARIABLE_VALUEdense_1/kernel)layer-1/kernel/.ATTRIBUTES/VARIABLE_VALUE
+IG
+VARIABLE_VALUEdense_1/bias'layer-1/bias/.ATTRIBUTES/VARIABLE_VALUE
+MK
+VARIABLE_VALUEdense_2/kernel)layer-2/kernel/.ATTRIBUTES/VARIABLE_VALUE
+IG
+VARIABLE_VALUEdense_2/bias'layer-2/bias/.ATTRIBUTES/VARIABLE_VALUE
+MK
+VARIABLE_VALUEdense_3/kernel)layer-3/kernel/.ATTRIBUTES/VARIABLE_VALUE
+IG
+VARIABLE_VALUEdense_3/bias'layer-3/bias/.ATTRIBUTES/VARIABLE_VALUE
+MK
+VARIABLE_VALUEdense_4/kernel)layer-4/kernel/.ATTRIBUTES/VARIABLE_VALUE
+IG
+VARIABLE_VALUEdense_4/bias'layer-4/bias/.ATTRIBUTES/VARIABLE_VALUE
+Ö
+beta1_power
+beta2_powermm	m
+mmmmmmmvv 	v!
+v"v#v$v%v&v'v(
+\Z
+VARIABLE_VALUETFOptimizer/iterations0optimizer/global_step/.ATTRIBUTES/VARIABLE_VALUE
+pn
+VARIABLE_VALUE training/TFOptimizer/beta1_power:optimizer/optimizer/beta1_power/.ATTRIBUTES/VARIABLE_VALUE
+pn
+VARIABLE_VALUE training/TFOptimizer/beta2_power:optimizer/optimizer/beta2_power/.ATTRIBUTES/VARIABLE_VALUE
+vt
+VARIABLE_VALUEdense/kernel/AdamOlayer-0/kernel/.OPTIMIZER_SLOT/optimizer/optimizer/m/.ATTRIBUTES/VARIABLE_VALUE
+rp
+VARIABLE_VALUEdense/bias/AdamMlayer-0/bias/.OPTIMIZER_SLOT/optimizer/optimizer/m/.ATTRIBUTES/VARIABLE_VALUE
+xv
+VARIABLE_VALUEdense_1/kernel/AdamOlayer-1/kernel/.OPTIMIZER_SLOT/optimizer/optimizer/m/.ATTRIBUTES/VARIABLE_VALUE
+tr
+VARIABLE_VALUEdense_1/bias/AdamMlayer-1/bias/.OPTIMIZER_SLOT/optimizer/optimizer/m/.ATTRIBUTES/VARIABLE_VALUE
+xv
+VARIABLE_VALUEdense_2/kernel/AdamOlayer-2/kernel/.OPTIMIZER_SLOT/optimizer/optimizer/m/.ATTRIBUTES/VARIABLE_VALUE
+tr
+VARIABLE_VALUEdense_2/bias/AdamMlayer-2/bias/.OPTIMIZER_SLOT/optimizer/optimizer/m/.ATTRIBUTES/VARIABLE_VALUE
+xv
+VARIABLE_VALUEdense_3/kernel/AdamOlayer-3/kernel/.OPTIMIZER_SLOT/optimizer/optimizer/m/.ATTRIBUTES/VARIABLE_VALUE
+tr
+VARIABLE_VALUEdense_3/bias/AdamMlayer-3/bias/.OPTIMIZER_SLOT/optimizer/optimizer/m/.ATTRIBUTES/VARIABLE_VALUE
+xv
+VARIABLE_VALUEdense_4/kernel/AdamOlayer-4/kernel/.OPTIMIZER_SLOT/optimizer/optimizer/m/.ATTRIBUTES/VARIABLE_VALUE
+tr
+VARIABLE_VALUEdense_4/bias/AdamMlayer-4/bias/.OPTIMIZER_SLOT/optimizer/optimizer/m/.ATTRIBUTES/VARIABLE_VALUE
+xv
+VARIABLE_VALUEdense/kernel/Adam_1Olayer-0/kernel/.OPTIMIZER_SLOT/optimizer/optimizer/v/.ATTRIBUTES/VARIABLE_VALUE
+tr
+VARIABLE_VALUEdense/bias/Adam_1Mlayer-0/bias/.OPTIMIZER_SLOT/optimizer/optimizer/v/.ATTRIBUTES/VARIABLE_VALUE
+zx
+VARIABLE_VALUEdense_1/kernel/Adam_1Olayer-1/kernel/.OPTIMIZER_SLOT/optimizer/optimizer/v/.ATTRIBUTES/VARIABLE_VALUE
+vt
+VARIABLE_VALUEdense_1/bias/Adam_1Mlayer-1/bias/.OPTIMIZER_SLOT/optimizer/optimizer/v/.ATTRIBUTES/VARIABLE_VALUE
+zx
+VARIABLE_VALUEdense_2/kernel/Adam_1Olayer-2/kernel/.OPTIMIZER_SLOT/optimizer/optimizer/v/.ATTRIBUTES/VARIABLE_VALUE
+vt
+VARIABLE_VALUEdense_2/bias/Adam_1Mlayer-2/bias/.OPTIMIZER_SLOT/optimizer/optimizer/v/.ATTRIBUTES/VARIABLE_VALUE
+zx
+VARIABLE_VALUEdense_3/kernel/Adam_1Olayer-3/kernel/.OPTIMIZER_SLOT/optimizer/optimizer/v/.ATTRIBUTES/VARIABLE_VALUE
+vt
+VARIABLE_VALUEdense_3/bias/Adam_1Mlayer-3/bias/.OPTIMIZER_SLOT/optimizer/optimizer/v/.ATTRIBUTES/VARIABLE_VALUE
+zx
+VARIABLE_VALUEdense_4/kernel/Adam_1Olayer-4/kernel/.OPTIMIZER_SLOT/optimizer/optimizer/v/.ATTRIBUTES/VARIABLE_VALUE
+vt
+VARIABLE_VALUEdense_4/bias/Adam_1Mlayer-4/bias/.OPTIMIZER_SLOT/optimizer/optimizer/v/.ATTRIBUTES/VARIABLE_VALUEşµ,¢Æ{"class_name": "Dense", "config": {"activation": "relu", "activity_regularizer": null, "bias_constraint": null, "bias_initializer": {"class_name": "Constant", "config": {"dtype": "float32", "value": 0.1}}, "bias_regularizer": {"class_name": "L1L2", "config": {"l1": 0.0, "l2": 1.000000013351432e-10}}, "dtype": null, "kernel_constraint": null, "kernel_initializer": {"class_name": "RandomNormal", "config": {"dtype": "float32", "mean": 0.0, "seed": null, "stddev": 0.05}}, "kernel_regularizer": {"class_name": "L1L2", "config": {"l1": 0.0, "l2": 1.000000013351432e-10}}, "name": "dense", "trainable": true, "units": 10, "use_bias": true}} ¡^=Ÿë>0Í>ßv°>ß>¾>vS=ìGˆ>­=ª<Ë>‘I„>±?ó¶,`£7ª¢›7mŸ7hš7$å¶Õ7u7Ÿm[¶ÓÄ°7İjŸµw6;2U±¤3ñ”3w3Y¾’3Ş„1Éw"3Cğ1†Á3nÆ/0–>%i¾m¾¥ÒT¾e¾áeL>Tì"¾¶>æ™t¾c˜…>TC·Ì8‡$ù7Âùâ7©÷7ª´æ¶¤¬Ä7®ğ°¶*‰8½†¶­Zñ2`BQ4[<44‡s:4ùr,2Ç_Î3NaË1‹t4f\0€)–mD{"class_name": "Dense", "config": {"activation": "relu", "activity_regularizer": null, "bias_constraint": null, "bias_initializer": {"class_name": "Constant", "config": {"dtype": "float32", "value": 0.1}}, "bias_regularizer": {"class_name": "L1L2", "config": {"l1": 0.0, "l2": 1.000000013351432e-10}}, "dtype": null, "kernel_constraint": null, "kernel_initializer": {"class_name": "RandomNormal", "config": {"dtype": "float32", "mean": 0.0, "seed": null, "stddev": 0.05}}, "kernel_regularizer": {"class_name": "L1L2", "config": {"l1": 0.0, "l2": 1.000000013351432e-10}}, "name": "dense_1", "trainable": true, "units": 10, "use_bias": true}}> İ=Qy>y">©!>úÚi>ì…,>z3î=scì=¸¶>!I>À+k6MÀ6
+@´6b¨Á6f.$·„»Ö6‹”6E…®6¯ûá6Ü5•6*1²å1AÛÊ1D¿é1hA®2Cü2’g10;Ã1­ğ2‚…1!([½g[*½ø]à½õ`Å½³ñ›>	«®½·ùë¼Øó½¾›ø%¾†ï>*5->6ö¬>4¬‰>D%¿,R›>êA”>“4Ÿ>œu>ã7>3U’>ÌŸ>î¥œ>…İ–>Ä·ø¾ğÉ†>-*µ>¤§>8™a>£?‡>fÿs>:Ëf>—¦>¶¶>z!¿_ôe>»$z>D²x>ıD[>âe>Ø¦>À·v>D¸Ÿ>šƒ>‰Õ¿ãœš>]¸r>øt>/Ú”>å{>÷Ï‘½À­©<¹D3½jíİ¼F6>È›œ½Ÿ/«½J±€½¤Å½"k<\Us>Ak>h0„>¯»>Wâø¾ƒ¯i>‹j>?è:>h û=Ü£Y>^oÎ½>;½Zù¼u Á¼‰,>Ë½Ì@L½*òÉ<at¼5?­½1¨²>6*>¢X²>:»›>i\¿©ÏÌ>ü7}>,ÿ¦>°°>vFD>.é‹=×§'>a¯¼×ó;Tˆ¦>ş%=}Sµ¼bÜ;½C“ê=³`=UÂó5’lF6²;6­ßH6jş­¶Z–]6İ±6ª`46Óşh6‡66°©3BJ4Úı3 ‰	4ê ô³æÆ)4Cß3Š¯4®54jÆ3âå4-¾d42ûH4Y4Ùx‰´p"4Ñ+43ÁK4q…‡4
+‘!42@3¯7å3¯Ç¾3ùÎ3¸³Ànÿ3;Ó§3gÉ3²´45•3;t‹3°ú3e}Ğ3J$â3™¯Ë³s^4Ô:·3ò…Û3Ü"4:£38¬5'66¶%6§ê6û¢u¶z”6–/Ù5€èş5B¥$6ÇNÛ5¼úu34òØ3šİ¸30$È3~GÔ³Çñ3œv 3©u¿3tş 4)’30x]5©L´5xî©5Ä~¶5lç¶ìZÉ5r¤‹5•ç£5÷¸Ó5Ô5§/•3Ü¸4
+ß3’ãñ3^Ú³b4_óÃ3ôÎê3èz4}©®3^¿6;—€6|r6Øö6£¥ß¶÷˜6â	G6Úªi6&—65«H6·:0½õ0¹Û0œ ı0ÑÄ1¿1¿f›0OyÖ01®)1bp‘0ß¡£,*-1…-Hù§-Ä-o$!.;Æa-{JÉ-n.5t>-¹Ü¸,e–-+V†-?ÿ£-×Å™-B.ú®V-3ï³-9 .‡Á7-öZ,©ö,Ìá,÷Ÿ-Ğá˜,4Óƒ-•ƒ¿,Å¿,-ğQ_-›—¢,(-0,n‡-Ü.-•—,-×õµ,-°¡-Xùç,ùfO-øP‹-’êÃ,ˆ¬¸/
+Jv0ÏßZ0×ğ{0ÎÂC1†š0[Ğ0Ÿ‹Q0ğı©0‡0PÅ§+<g‰,‹‰u,TÉš,¨›N,k-{ºg,ƒ§Ø,ì>ò,ŒKL,/X Î/A‡¸/«›Ô/ç…¤0œî0ß2‚/îÃ³/È£0v*t/'Tf,»G-Š§:-5ûi-«Ù,§ÿŞ-'Ü-É®‹-ä(¹-¤0-¯¶–0¹±L1¥31"ÕN1*“2¹j}1Nö0©÷&1aS1ë0€)–mD{"class_name": "Dense", "config": {"activation": "relu", "activity_regularizer": null, "bias_constraint": null, "bias_initializer": {"class_name": "Constant", "config": {"dtype": "float32", "value": 0.1}}, "bias_regularizer": {"class_name": "L1L2", "config": {"l1": 0.0, "l2": 1.000000013351432e-10}}, "dtype": null, "kernel_constraint": null, "kernel_initializer": {"class_name": "RandomNormal", "config": {"dtype": "float32", "mean": 0.0, "seed": null, "stddev": 0.05}}, "kernel_regularizer": {"class_name": "L1L2", "config": {"l1": 0.0, "l2": 1.000000013351432e-10}}, "name": "dense_2", "trainable": true, "units": 10, "use_bias": true}}Lñ`=)Nœ=W"‡=@~Ò=¿Á=ÙïI><¶=é.º=¤Øñ=Q»°=ûåß5uÛe6_—F6ŒVh6ÆP-6?Œ¶%øV6Lo6\CÓ5VF36÷ŸD0WI1æ$1ÿ.1ı"É0ÈZ1q’1À6º1¼‹©0bÊ1æ‰À=,õç=I`<“è=Ø-">†±,¾qDĞ=J0>Ó€r=Fµ<>§u{>`Ÿe>ÅªZ>â4–>ØZ>jY»½9ŠÍ=²Y9>Õ³1>Õü„>@‡m>0½d>§&‚>Ÿ>uÙE>SaZ¾# =}¥T>hòÃ=k‹Q>Déx>e3]>}ay>1dc>ùbŠ>¶…I¾î“ğ=¢uø=“ÚÉ=fÒm>.L¾dº¹¾«fŸ¾Ü>Í¾ñÓº¾	/Ş>‡×‘¾[”¾œ†Â¾ı¼¾PA>û>y„>j‡’>[1@>¹ÔI¾âG8>].>±D >Nja>´µ=Èæß=,Xe>©+>½£->®¦F¾Y>>4&Ğ=sW>A>Î™=_Lf>õ.P>k4>ªê>qe¾ÌM>:>^¹=¦vL>-Åj>Çz—>ße>nåˆ>¥&V>4jh¾Æ6K>}ò9>`4k>Cè]>YüQ>æó^>;2>IÚ½=’C>:‚6¾ÛH>ã=ºŒ‡½->r4†çğ4Š=·4”æ4]ñš4~o×´&ƒì40üü4	Ÿ4È‘4r 5Ö ­5AÏ5«Y¬5"äz5¾_Äµøä£5^´5²U15Û~5ˆËë3»ç4¤ª4ÀÙ4ó‚4:¿¼´%tå4ÆBó4Da£4q1‚4[²34jÊ5fÿ×4†d5–b·4yBµf}5¡54²4Î®4É¹¦5Tª6`y6y‚6Ú(í5°ÕG¶ÎO6‹6¸rb5$Jü5&TM4Ì¦5Ãğ4&+5éÍÌ4[öµü—5~ "56uÁ4vpÄ4Í¬3]o±4§m4,q¦4ÔRX4ü&´@µ°4táº4xï4ÙóC4aW3'›—4T6R4è@‹4M-4„ÁN´Sp™4¦6 4ro4èå4êÒ×4ìì‚5ÂgW5Ei5¶Ñ95­µtÃy5Ä®ˆ5fn5¨ç95ûdÛ3³-Â4ö×‘4 i¸4Åu4¾§´Òy¿4NÌ4Bëƒ4m²d4‰§Û,1õo.ÙT.ä¾).Ÿyš-h>.áã.H/¨[.6Ã-Cœ.í±/Áe€/pT¬/sT>/†`á/vIª/rzÎ/`t-/©öI/ºŸÉ,…š.!–&.LÉ@.ş¡š-Ñ#."/'/s:2.D-«-Ø‚-v¤.™³A.¹r.ÁƒÜ-bg.d€ú.¬ä/o,:.)Aë-X¾/ÔŠ0ƒ—j0*¥0‡è30Ìwğ0µ¡n0Ï^™0©Ó/9’O0…x?-&Ñ.ôât.=[˜.æI.¢.ù¥/ª«+/¡g.Ù¶.öuk,p‡.¿Û¸-9*Ã-H©"-âÌÏ-˜©.¹¾.ô:½-Š°_-uz^,ƒ(.!»-¶İ¯-ÕŠ-}¢±-p2Ê.°Ş.¨LÇ-2…N-k".fÈY/k\/HG/…ùÒ.*n/F§_/‹/2Ş.jLÙ.ğ„,Ÿ*.óÆ-P®ç-¹ÉH-„ùİ-÷™.ìq©.ĞÆ-ni-€)–mD{"class_name": "Dense", "config": {"activation": "relu", "activity_regularizer": null, "bias_constraint": null, "bias_initializer": {"class_name": "Constant", "config": {"dtype": "float32", "value": 0.1}}, "bias_regularizer": {"class_name": "L1L2", "config": {"l1": 0.0, "l2": 1.000000013351432e-10}}, "dtype": null, "kernel_constraint": null, "kernel_initializer": {"class_name": "RandomNormal", "config": {"dtype": "float32", "mean": 0.0, "seed": null, "stddev": 0.05}}, "kernel_regularizer": {"class_name": "L1L2", "config": {"l1": 0.0, "l2": 1.000000013351432e-10}}, "name": "dense_3", "trainable": true, "units": 10, "use_bias": true}}k¦¼=/‘ß=äÏ=9âà=„oÁ=Š‘=”ÎÌ=ğ£=Pœ =íßÕ=ãA¶hö(6Ï¤6°6;S¶A¢Æ5:g‚5i]=¶Ï\¶Fs*6ìV2“s2æYô1,â3˜ß°1ëfî0'ä1ÑY2gg¸2Å*E2İ	=¾) <êkG½”ªx½ß-¾‰À“;Ô¾§=§ğG¾`¯š½5Âx<#ÓI¾Š”‰=Xò=‰Ç®=ú¾uv>#|€<:ªá½ÖÑä½ƒC>yLc¾5V)½x~”=
+W=¦s9¾—=ıå£=Å1¾8(,¾´Ì®=”Œ-¾éN¹=x§Ò=Ì6H¼AxC¾PR>€§İ=ï34¾^€h¾'>¤şc¾CÊX½£$%=êvr=L„R¾Eİ=3S®=gÄ¾9è½q&œ<r–$>H×2¾7İY¾¦Š¾>y>^‰¾æ)$¾jc	>nÇ">¨âŞ½…¾§ˆ=…úÀ=NUù=&‡&¾‹Ğ‹=;8J="'*¾#.×½'0>¾lÓ½Pfç=W9ß=Ëˆ2>	M‚¾ãÉV=Eö
+=©Û}¾û¥®½@ú<?º7½tƒë<ÌHã=H>Qün¾OMƒ=Œ=>tŸ-¾¤Öç½SG!>¡`u¾"}D=ıw»³Z=ì.Š¾š´½Q“÷:Ã¤¼Ó÷~¾"¿;=’Â´|ãL5l‰;5š®5á«´Oúğ4ÿZ4&š´hğ¹´€¶N5i‹´uÑc5ŠˆP5Ò—Á5<y—´hü5”°4¯Á‡´ #¦´JÚe5ÖÓŒ´¿X5?gF51¸5n™´ªòş4>‹§4†‰´ä”§´Í¯Z5.İŒ´]°\5FJ5~ˆ»5.z™´GÊ5v•ª4‘‰´Kô§´Š¨^5D´»:5œÒ*5¬”5Vt ´„†Û4`H4Ê´ñ.6´I<5 ÇlµR~5|Ùù4
+h5bù€µ=s 4¸±R4'Cgµjİ„µ¸³	5¿´J`5øR5Xùq5ø·´àw§4Ì\4Ø\´wH/´À¦5;ks´¸¬25ü‹#5¹Õ—5Ÿ„´&Ò4àŠ4´Àm´T~´C45†$ú²Ñë4Ú0×4`¿G5ãr³LGŠ4ƒÔ54Æsô²Ê;A³M2í4Œ:‡´Êj`5,jM5³³¾5¤V“´{ù5½w­4à	„´Â¡´êjb5â×A.ì…/1{¾.Né¾/¼.²€	.¸ ‘-ŠÂ.“Ré.¹éı.íÕ/	·+0@_Î/ÏöÅ0u? .:Ş/û/!$†/ÜÇó/Í0Í9è.²Wå/MÁ†/±ˆˆ0ı•‚.äC¨.õ©.ûR/ã¾/°xÃ/éıŒ.ÿ÷—/¸ÙK/šå<0ƒî7.¤•.d.¦Fæ.Q‚C/D^‹/şÕ‚.kcR/t}/™0ˆç.ù,.ªG.‰İä.ÊD/ÓM:/€ÿ}/™=/»1Ì.–VÏ/Oğ…/ñ?.t}È-ı½/MÄ/İo/=Ç«. ·¢/¤	4/½=0™,.¶PP.yÆr.8ı"/vÆ—/ù†/-
+/§&ø/³ç‰/¦Ğ0&¥“.Èø .~¸.¹å~/Ô’ç/€]Î/37.&5ş.¶Ÿ.m/8ª-,áÚ-@v¶-²›€.«Ş.dã.‘'Æ._üº/¸\/ge0Î€`.·‡.»~.¾Ô2/Çş¡// Ÿ/²ü—{"class_name": "Dense", "config": {"activation": "linear", "activity_regularizer": null, "bias_constraint": null, "bias_initializer": {"class_name": "Constant", "config": {"dtype": "float32", "value": 0.0}}, "bias_regularizer": {"class_name": "L1L2", "config": {"l1": 0.0, "l2": 1.000000013351432e-10}}, "dtype": null, "kernel_constraint": null, "kernel_initializer": {"class_name": "RandomNormal", "config": {"dtype": "float32", "mean": 0.0, "seed": null, "stddev": 0.05}}, "kernel_regularizer": {"class_name": "L1L2", "config": {"l1": 0.0, "l2": 1.000000013351432e-10}}, "name": "dense_4", "trainable": true, "units": 1, "use_bias": true}}Ø•<2¸:8f“ï6c¦¾”Èe=<R=ÄÄ=Lt¾D5=ŞÚ­<4 ¾’
+¾‡g=°„58­û6şß$7—„7hØ65ñ27dŸ)7¨4 5Òİ75ÔÃa7Q¶2Ùı–3êü3€4ÀZ°2×%¤3]ä¤3mÍ2l¸3XÔ=4ˆ          Ü;
