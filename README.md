@@ -16,12 +16,6 @@ The code is an extraction of the code used in the paper:
 
 ```
 
-The code shows how to:
-- Load ReLU networks trained with TensorFlow
-- Program ReLU networks as MILPs using Gurobi
-- Optimize a production optimization problem with ReLU network constraints (see a description of the case in the paper)
-
-
 ### Setup (Linux)
 
 1. Install Anaconda (see https://www.anaconda.com/)
@@ -31,6 +25,11 @@ The code shows how to:
 3. Get the Gurobi license (grbgetkey is located in the Conda environment's bin folder): ``~/anaconda3/envs/relu-opt/bin/grbgetkey <key identifier>``
 
 
-### How to run
+### How to
+
+The code shows how to:
+- Load ReLU networks trained with TensorFlow
+- Program ReLU networks as MILPs using Gurobi
+- Optimize a production optimization problem with ReLU network constraints (see a description of the case in the paper)
 
 Start the optimization by running the script: ``prodopt/solve_problem.py``
